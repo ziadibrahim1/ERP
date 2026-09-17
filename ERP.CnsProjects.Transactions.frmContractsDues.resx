@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ultraLabel16.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAJAAAAvgEAAAs=</value></data><data name="btnContractSearch.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACIAgAAIgAAAAs=</value></data><data name="btnJV.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAA
+Cw==</value></data><data name="&gt;&gt;ultraLabel14.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel18.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="txtConstractionInsurense.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACWAgAAngEAAAs=</value></data><data name="&gt;&gt;ultraLabel11.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;ultraLabel2.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;ultraLabel11.ZOrder" xml:space="preserve"><value>53</value></data>
+  <data name="&gt;&gt;ultraLabel12.ZOrder" xml:space="preserve"><value>44</value></data>
+  <data name="&gt;&gt;txtConstractionInsurensePercentage.Name" xml:space="preserve"><value>txtConstractionInsurensePercentage</value></data>
+  <data name="&gt;&gt;txtConstractionInsurensePercentage.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="btnJV.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;txtSalesTax.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="appearance8.TextHAlignAsString" xml:space="preserve"><value>Center</value></data>
+  <data name="&gt;&gt;btnUpdate.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve"><value>btnAdd</value></data>
+  <data name="txtSalesTaxValue.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>581</value></data>
+  <data name="&gt;&gt;dtpDate.ZOrder" xml:space="preserve"><value>71</value></data>
+  <data name="&gt;&gt;txtSalesTax.ZOrder" xml:space="preserve"><value>51</value></data>
+  <data name="&gt;&gt;txtErectionPercentage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="btnContractSearch.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="resource.Name" xml:space="preserve"><value>Tahoma</value></data>
+  <data name="&gt;&gt;btnExport.ZOrder" xml:space="preserve"><value>74</value></data>
+  <data name="&gt;&gt;txtErectionPercentage.Name" xml:space="preserve"><value>txtErectionPercentage</value></data>
+  <data name="&gt;&gt;txtErectionPercentage.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel4.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel20.Text" xml:space="preserve"><value>Net Price</value></data>
+  <data name="ultraLabel20.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADsAAAASAAAACw==</value></data><data name="lblSalesTax.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>582</value></data>
+  <data name="cboSubAccount.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>567</value></data>
+  <data name="ultraLabel14.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACNAwAAXwAAAAs=</value></data><data name="&gt;&gt;btnClose.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblRight.ZOrder" xml:space="preserve"><value>19</value></data>
+  <data name="ultraLabel9.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="cboSalesTax.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>592</value></data>
+  <data name="&gt;&gt;btnKeyboard.ZOrder" xml:space="preserve"><value>26</value></data>
+  <data name="txtWorkerInsurense.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACWAgAAuwEAAAs=</value></data><data name="&gt;&gt;cboSubAccount.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;ultraLabel2.ZOrder" xml:space="preserve"><value>43</value></data>
+  <data name="&gt;&gt;lblCode.Name" xml:space="preserve"><value>lblCode</value></data>
+  <data name="&gt;&gt;lblCode.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="appearance8.TextVAlignAsString" xml:space="preserve"><value>Middle</value></data>
+  <data name="ultraLabel6.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblRight.Name" xml:space="preserve"><value>lblRight</value></data>
+  <data name="&gt;&gt;lblRight.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtTotalPrice.ZOrder" xml:space="preserve"><value>52</value></data>
+  <data name="&gt;&gt;btnOpenTicket.Name" xml:space="preserve"><value>btnOpenTicket</value></data>
+  <data name="&gt;&gt;btnOpenTicket.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel14.ZOrder" xml:space="preserve"><value>55</value></data>
+  <data name="&gt;&gt;lblRight.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel7.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="ultraLabel5.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="txtConstractionInsurensePercentage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACwAAAAZAAAACw==</value></data><data name="&gt;&gt;txtTestPercentage.ZOrder" xml:space="preserve"><value>59</value></data>
+  <data name="&gt;&gt;lblSalesTax.ZOrder" xml:space="preserve"><value>41</value></data>
+  <data name="txtConstractionInsurense.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHEAAAAZAAAACw==</value></data><data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve"><value>16</value></data>
+  <data name="ultraLabel8.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>588</value></data>
+  <data name="&gt;&gt;txtErectionPercentage.ZOrder" xml:space="preserve"><value>60</value></data>
+  <data name="&gt;&gt;btnUpdate.ZOrder" xml:space="preserve"><value>14</value></data>
+  <data name="ultraLabel1.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADZAgAAJQAAAAs=</value></data><data name="cboSalesTax.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGYAAAAZAAAACw==</value></data><data name="ultraLabel2.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="ultraLabel2.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAJAAAAoQEAAAs=</value></data><data name="ultraLabel17.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAgAAoQEAAAs=</value></data><data name="&gt;&gt;cboSubAccount.Name" xml:space="preserve"><value>cboSubAccount</value></data>
+  <data name="&gt;&gt;cboSubAccount.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraComboEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel4.ZOrder" xml:space="preserve"><value>57</value></data>
+  <data name="ultraLabel16.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;dtpDate.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel7.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="lblNotes.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACgAAAASAAAACw==</value></data><data name="lblNotes.Text" xml:space="preserve"><value>Notes</value></data>
+  <data name="&gt;&gt;txtSupplyPercentage.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtSupplyPercentage.Name" xml:space="preserve"><value>txtSupplyPercentage</value></data>
+  <data name="ultraLabel4.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>579</value></data>
+  <data name="&gt;&gt;txtCode.ZOrder" xml:space="preserve"><value>9</value></data>
+  <data name="&gt;&gt;ultraLabel20.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel20.Name" xml:space="preserve"><value>ultraLabel20</value></data>
+  <data name="txtTotalPrice.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB2AAAAngEAAAs=</value></data><data name="cboContracts.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>508</value></data>
+  <data name="UGBDetails.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANkDAAAlAQAACw==</value></data><data name="&gt;&gt;btnContractSearch.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="ultraLabel1.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblHistory.Name" xml:space="preserve"><value>lblHistory</value></data>
+  <data name="&gt;&gt;lblHistory.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ultraLabel10.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtWorkerInsurensePercentage.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtWorkerInsurensePercentage.Name" xml:space="preserve"><value>txtWorkerInsurensePercentage</value></data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOgDAAD0AQAACw==</value></data><data name="txtNotes.Multiline" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="ultraLabel17.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblSalesTax.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;btnKeyboard.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnSaveClose.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtTestPercentage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtTotalPrice.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;ultraLabel1.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;cboSubAccount.ZOrder" xml:space="preserve"><value>64</value></data>
+  <data name="&gt;&gt;lblBottom.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblSalesTax.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADwAAAAnwEAAAs=</value></data><data name="lblSalesTax.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;UGBDetails.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraGroupBox, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;UGBDetails.Name" xml:space="preserve"><value>UGBDetails</value></data>
+  <data name="&gt;&gt;lblSalesTax.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="btnContractSearch.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>589</value></data>
+  <data name="&gt;&gt;btnContractSearch.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblTop.Name" xml:space="preserve"><value>lblTop</value></data>
+  <data name="&gt;&gt;lblTop.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnSaveClose.Name" xml:space="preserve"><value>btnSaveClose</value></data>
+  <data name="&gt;&gt;btnSaveClose.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtCommercialTax.Name" xml:space="preserve"><value>txtCommercialTax</value></data>
+  <data name="&gt;&gt;txtCommercialTax.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="btnContractSearch.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABoAAAAZAAAACw==</value></data><data name="&gt;&gt;btnExport.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnExport.Name" xml:space="preserve"><value>btnExport</value></data>
+  <data name="&gt;&gt;txtConstractionInsurense.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve"><value>13</value></data>
+  <data name="txtSupplyPercentage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAcAwAAWwAAAAs=</value></data><data name="ultraLabel12.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="ultraLabel11.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="cboContracts.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC+AQAAIgAAAAs=</value></data><data name="&gt;&gt;txtTestPercentage.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtTestPercentage.Name" xml:space="preserve"><value>txtTestPercentage</value></data>
+  <data name="lblCode.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABdAQAAAgAAAAs=</value></data><data name="&gt;&gt;UGBDetails.ZOrder" xml:space="preserve"><value>18</value></data>
+  <data name="txtConstractionInsurense.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;txtSalesTaxValue.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtSalesTaxValue.Name" xml:space="preserve"><value>txtSalesTaxValue</value></data>
+  <data name="txtDownPayment.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABwAwAAngEAAAs=</value></data><data name="btnJV2.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACjAwAA2gEAAAs=</value></data><data name="ultraLabel9.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAD8AAAASAAAACw==</value></data><data name="ultraLabel9.Text" xml:space="preserve"><value>Sales Tax</value></data>
+  <data name="txtDownPayment.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="ultraLabel20.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;UGBDetails.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtCommercialTax.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHEAAAAZAAAACw==</value></data><data name="&gt;&gt;ultraLabel1.ZOrder" xml:space="preserve"><value>65</value></data>
+  <data name="&gt;&gt;txtCode.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel13.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>578</value></data>
+  <data name="lblDate.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;ultraLabel10.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtDownPayment.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtDownPayment.Name" xml:space="preserve"><value>txtDownPayment</value></data>
+  <data name="txtDownPaymentPercentage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABXAQAAWwAAAAs=</value></data><data name="ultraLabel11.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="ultraLabel8.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABIAAAASAAAACw==</value></data><data name="ultraLabel8.Text" xml:space="preserve"><value>%</value></data>
+  <data name="&gt;&gt;lblBottom.ZOrder" xml:space="preserve"><value>20</value></data>
+  <data name="ultraLabel5.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJEAAAASAAAACw==</value></data><data name="ultraLabel5.Text" xml:space="preserve"><value>Construction Insurance</value></data>
+  <data name="&gt;&gt;btnSaveClose.ZOrder" xml:space="preserve"><value>24</value></data>
+  <data name="txtWorkerInsurensePercentage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>584</value></data>
+  <data name="ultraLabel3.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>573</value></data>
+  <data name="ultraLabel8.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;btnPriveous.Name" xml:space="preserve"><value>btnPriveous</value></data>
+  <data name="&gt;&gt;btnPriveous.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve"><value>btnOK</value></data>
+  <data name="&gt;&gt;ultraLabel19.ZOrder" xml:space="preserve"><value>37</value></data>
+  <data name="&gt;&gt;btnAttachFile.ZOrder" xml:space="preserve"><value>73</value></data>
+  <data name="ultraLabel7.Text" xml:space="preserve"><value>Workers Insurance</value></data>
+  <data name="ultraLabel7.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHcAAAASAAAACw==</value></data><data name="ultraLabel15.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADPAwAAXwAAAAs=</value></data><data name="ultraLabel9.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="btnJV2.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve"><value>11</value></data>
+  <data name="lblDate.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAIAAAAJwAAAAs=</value></data><data name="ultraLabel18.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="ultraLabel18.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="ultraLabel4.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABIAAAASAAAACw==</value></data><data name="ultraLabel4.Text" xml:space="preserve"><value>%</value></data>
+  <data name="ultraLabel9.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="ultraLabel9.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACYAQAAugEAAAs=</value></data><data name="ultraLabel1.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACcAAAASAAAACw==</value></data><data name="ultraLabel1.Text" xml:space="preserve"><value>Client</value></data>
+  <data name="&gt;&gt;ultraLabel17.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel13.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="txtTestPercentage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACwAAAAZAAAACw==</value></data><data name="ultraLabel6.Text" xml:space="preserve"><value>%</value></data>
+  <data name="ultraLabel6.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABIAAAASAAAACw==</value></data><data name="lblNotes.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;txtConstractionInsurense.ZOrder" xml:space="preserve"><value>48</value></data>
+  <data name="btnJV.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAD8AAAAXAAAACw==</value></data><data name="btnJV.Text" xml:space="preserve"><value>JV 1</value></data>
+  <data name="ultraLabel3.Text" xml:space="preserve"><value>Down Payment</value></data>
+  <data name="ultraLabel3.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGAAAAASAAAACw==</value></data><data name="txtDownPayment.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>581</value></data>
+  <data name="ultraLabel14.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;lblLeft.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtNotes.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtNotes.Name" xml:space="preserve"><value>txtNotes</value></data>
+  <data name="&gt;&gt;btnAttachFile.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtNetPrice.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABwAwAAuwEAAAs=</value></data><data name="txtTestPercentage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACgAwAAWwAAAAs=</value></data><data name="&gt;&gt;lblLeft.ZOrder" xml:space="preserve"><value>21</value></data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnJV.Name" xml:space="preserve"><value>btnJV</value></data>
+  <data name="&gt;&gt;btnJV.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblHistory.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIoCAAATAAAACw==</value></data><data name="ultraLabel2.Text" xml:space="preserve"><value>Total</value></data>
+  <data name="ultraLabel2.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACMAAAASAAAACw==</value></data><data name="&gt;&gt;btnPrint.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;cboTransactionBranch.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnImport.ZOrder" xml:space="preserve"><value>75</value></data>
+  <data name="&gt;&gt;ultraLabel10.ZOrder" xml:space="preserve"><value>56</value></data>
+  <data name="&gt;&gt;txtWorkerInsurense.ZOrder" xml:space="preserve"><value>47</value></data>
+  <data name="&gt;&gt;btnPrint.ZOrder" xml:space="preserve"><value>17</value></data>
+  <data name="ultraLabel12.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACkAwAARQAAAAs=</value></data><data name="cboSubAccount.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMQAAAAZAAAACw==</value></data><data name="lblDate.Text" xml:space="preserve"><value>Date</value></data>
+  <data name="lblDate.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="ultraLabel4.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="ultraLabel19.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="ultraLabel3.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="txtSalesTaxValue.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAChAQAAmwEAAAs=</value></data><data name="ultraLabel5.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="ultraLabel14.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="ULGData.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAFAAAAAs=</value></data><data name="lblNotes.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;cboTransactionBranch.ZOrder" xml:space="preserve"><value>28</value></data>
+  <data name="btnJV.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>590</value></data>
+  <data name="&gt;&gt;txtCode.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtCode.Name" xml:space="preserve"><value>txtCode</value></data>
+  <data name="&gt;&gt;txtWorkerInsurense.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtDownPaymentPercentage.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="lblNotes.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAIAAAARwAAAAs=</value></data><data name="cboSalesTax.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="lblContracts.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtWorkerInsurensePercentage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACPAgAAWwAAAAs=</value></data><data name="&gt;&gt;ultraLabel19.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblSalesTax.Name" xml:space="preserve"><value>lblSalesTax</value></data>
+  <data name="&gt;&gt;txtTotalPrice.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblSalesTax.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtTotalPrice.Name" xml:space="preserve"><value>txtTotalPrice</value></data>
+  <data name="&gt;&gt;ultraLabel17.ZOrder" xml:space="preserve"><value>39</value></data>
+  <data name="ultraLabel12.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>574</value></data>
+  <data name="&gt;&gt;btnJV.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="&gt;&gt;ULGData.Parent" xml:space="preserve"><value>UGBDetails</value></data>
+  <data name="&gt;&gt;dtUsersTransactions.Name" xml:space="preserve"><value>dtUsersTransactions</value></data>
+  <data name="&gt;&gt;dtUsersTransactions.Type" xml:space="preserve"><value>System.Data.DataTable, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dtpDate.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABVAAAAIgAAAAs=</value></data><data name="ultraLabel10.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABJAwAAXwAAAAs=</value></data><data name="ultraLabel17.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>582</value></data>
+  <data name="&gt;&gt;btnAttachFile.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnAttachFile.Name" xml:space="preserve"><value>btnAttachFile</value></data>
+  <data name="&gt;&gt;txtWorkerInsurense.Name" xml:space="preserve"><value>txtWorkerInsurense</value></data>
+  <data name="cboSubAccount.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAcAwAAIgAAAAs=</value></data><data name="&gt;&gt;btnPrint.Name" xml:space="preserve"><value>btnPrint</value></data>
+  <data name="&gt;&gt;btnPrint.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtWorkerInsurense.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblContracts.ZOrder" xml:space="preserve"><value>67</value></data>
+  <data name="btnJV.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABIAwAA2gEAAAs=</value></data><data name="ultraLabel8.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC8AgAAXwAAAAs=</value></data><data name="txtTotalPrice.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>581</value></data>
+  <data name="ultraLabel15.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="ultraLabel7.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>586</value></data>
+  <data name="&gt;&gt;txtCommercialTax.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnImport.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel19.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGAAAAASAAAACw==</value></data><data name="ultraLabel19.Text" xml:space="preserve"><value>Down Payment</value></data>
+  <data name="&gt;&gt;btnKeyboard.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnKeyboard.Name" xml:space="preserve"><value>btnKeyboard</value></data>
+  <data name="&gt;&gt;ULGData.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="ultraLabel18.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHcAAAASAAAACw==</value></data><data name="ultraLabel18.Text" xml:space="preserve"><value>Workers Insurance</value></data>
+  <data name="ultraLabel1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>572</value></data>
+  <data name="&gt;&gt;btnSetting.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel6.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve"><value>12</value></data>
+  <data name="txtDownPayment.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHEAAAAZAAAACw==</value></data><data name="txtNotes.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>12</value></data>
+  <data name="ultraLabel15.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABIAAAASAAAACw==</value></data><data name="ultraLabel15.Text" xml:space="preserve"><value>%</value></data>
+  <data name="&gt;&gt;btnContractSearch.Name" xml:space="preserve"><value>btnContractSearch</value></data>
+  <data name="&gt;&gt;btnContractSearch.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="btnJV2.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>591</value></data>
+  <data name="ultraLabel14.Text" xml:space="preserve"><value>%</value></data>
+  <data name="ultraLabel14.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABIAAAASAAAACw==</value></data><data name="&gt;&gt;ultraLabel20.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnSetting.Name" xml:space="preserve"><value>btnSetting</value></data>
+  <data name="&gt;&gt;btnSetting.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ultraLabel13.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAcAwAARQAAAAs=</value></data><data name="ultraLabel17.Text" xml:space="preserve"><value>Construction Insurance</value></data>
+  <data name="ultraLabel17.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJEAAAASAAAACw==</value></data><data name="&gt;&gt;btnPriveous.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel8.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="ultraLabel16.Text" xml:space="preserve"><value>Commercial Tax</value></data>
+  <data name="ultraLabel16.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGYAAAASAAAACw==</value></data><data name="&gt;&gt;ultraLabel9.ZOrder" xml:space="preserve"><value>42</value></data>
+  <data name="&gt;&gt;txtDownPaymentPercentage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnSearch.ZOrder" xml:space="preserve"><value>6</value></data>
+  <data name="ultraLabel7.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="ultraLabel11.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADYAAAASAAAACw==</value></data><data name="ultraLabel11.Text" xml:space="preserve"><value>Erection</value></data>
+  <data name="&gt;&gt;btnRefreshData.ZOrder" xml:space="preserve"><value>23</value></data>
+  <data name="&gt;&gt;txtDownPaymentPercentage.ZOrder" xml:space="preserve"><value>62</value></data>
+  <data name="ultraLabel10.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABIAAAASAAAACw==</value></data><data name="ultraLabel10.Text" xml:space="preserve"><value>%</value></data>
+  <data name="ultraLabel11.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>577</value></data>
+  <data name="&gt;&gt;btnPriveous.ZOrder" xml:space="preserve"><value>7</value></data>
+  <data name="txtCommercialTax.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>581</value></data>
+  <data name="ultraLabel17.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;txtNetPrice.Name" xml:space="preserve"><value>txtNetPrice</value></data>
+  <data name="&gt;&gt;txtNetPrice.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtNetPrice.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHEAAAAZAAAACw==</value></data><data name="ultraLabel13.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAC0AAAASAAAACw==</value></data><data name="ultraLabel13.Text" xml:space="preserve"><value>Supply</value></data>
+  <data name="&gt;&gt;lblContracts.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtErectionPercentage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>570</value></data>
+  <data name="ultraLabel4.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;ultraLabel7.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel7.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABxAgAARQAAAAs=</value></data><data name="&gt;&gt;btnJV.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSupplyPercentage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACwAAAAZAAAACw==</value></data><data name="ultraLabel12.Text" xml:space="preserve"><value>Test</value></data>
+  <data name="ultraLabel12.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAB8AAAASAAAACw==</value></data><data name="&gt;&gt;btnSearch.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSalesTax.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;btnJV2.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnJV2.Name" xml:space="preserve"><value>btnJV2</value></data>
+  <data name="&gt;&gt;lblDate.ZOrder" xml:space="preserve"><value>70</value></data>
+  <data name="&gt;&gt;txtCommercialTax.ZOrder" xml:space="preserve"><value>50</value></data>
+  <data name="&gt;&gt;lblLeft.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblLeft.Name" xml:space="preserve"><value>lblLeft</value></data>
+  <data name="&gt;&gt;ultraLabel19.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel19.Name" xml:space="preserve"><value>ultraLabel19</value></data>
+  <data name="&gt;&gt;lblCode.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;cboSalesTax.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtDownPayment.ZOrder" xml:space="preserve"><value>46</value></data>
+  <data name="lblSalesTax.Text" xml:space="preserve"><value>Sales Tax</value></data>
+  <data name="&gt;&gt;ULGData.Name" xml:space="preserve"><value>ULGData</value></data>
+  <data name="lblSalesTax.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAD8AAAASAAAACw==</value></data><data name="&gt;&gt;ULGData.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics4.Win.UltraWinGrid.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel18.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel18.Name" xml:space="preserve"><value>ultraLabel18</value></data>
+  <data name="ultraLabel1.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="ULGData.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="&gt;&gt;ultraLabel20.ZOrder" xml:space="preserve"><value>36</value></data>
+  <data name="&gt;&gt;txtWorkerInsurensePercentage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnRefreshData.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtDownPaymentPercentage.Name" xml:space="preserve"><value>txtDownPaymentPercentage</value></data>
+  <data name="&gt;&gt;txtDownPaymentPercentage.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtErectionPercentage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABeAwAAWwAAAAs=</value></data><data name="lblContracts.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABxAQAAJQAAAAs=</value></data><data name="&gt;&gt;txtWorkerInsurensePercentage.ZOrder" xml:space="preserve"><value>32</value></data>
+  <data name="&gt;&gt;ultraLabel9.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSalesTax.Text" xml:space="preserve"><value>0</value></data>
+  <data name="txtSalesTax.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEQAAAAZAAAACw==</value></data><data name="&gt;&gt;ultraLabel13.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnSetting.ZOrder" xml:space="preserve"><value>29</value></data>
+  <data name="&gt;&gt;txtConstractionInsurense.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtConstractionInsurense.Name" xml:space="preserve"><value>txtConstractionInsurense</value></data>
+  <data name="&gt;&gt;lblTop.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;ultraLabel7.ZOrder" xml:space="preserve"><value>33</value></data>
+  <data name="&gt;&gt;lblHistory.ZOrder" xml:space="preserve"><value>27</value></data>
+  <data name="&gt;&gt;btnOpenTicket.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;ultraLabel15.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel15.Name" xml:space="preserve"><value>ultraLabel15</value></data>
+  <data name="&gt;&gt;lblNotes.Name" xml:space="preserve"><value>lblNotes</value></data>
+  <data name="&gt;&gt;lblNotes.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ultraLabel6.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;ultraLabel14.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel14.Name" xml:space="preserve"><value>ultraLabel14</value></data>
+  <data name="&gt;&gt;txtDownPayment.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSalesTaxValue.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAF0AAAAZAAAACw==</value></data><data name="&gt;&gt;cboSalesTax.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="ultraLabel16.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>582</value></data>
+  <data name="&gt;&gt;ultraLabel17.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel17.Name" xml:space="preserve"><value>ultraLabel17</value></data>
+  <data name="txtConstractionInsurense.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>581</value></data>
+  <data name="&gt;&gt;lblTop.ZOrder" xml:space="preserve"><value>22</value></data>
+  <data name="ultraLabel9.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>582</value></data>
+  <data name="&gt;&gt;ultraLabel16.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel16.Name" xml:space="preserve"><value>ultraLabel16</value></data>
+  <data name="ultraLabel10.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>580</value></data>
+  <data name="ultraLabel3.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;dtpDate.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraDateTimeEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;dtpDate.Name" xml:space="preserve"><value>dtpDate</value></data>
+  <data name="&gt;&gt;lblCode.ZOrder" xml:space="preserve"><value>10</value></data>
+  <data name="lblSalesTax.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtCommercialTax.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;ultraLabel11.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel11.Name" xml:space="preserve"><value>ultraLabel11</value></data>
+  <data name="ultraLabel18.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAhAgAAvgEAAAs=</value></data><data name="&gt;&gt;ultraLabel18.ZOrder" xml:space="preserve"><value>38</value></data>
+  <data name="&gt;&gt;ultraLabel10.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel10.Name" xml:space="preserve"><value>ultraLabel10</value></data>
+  <data name="&gt;&gt;lblDate.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSalesTax.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;ultraLabel16.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtDownPaymentPercentage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>568</value></data>
+  <data name="ultraLabel2.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;ultraLabel13.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel13.Name" xml:space="preserve"><value>ultraLabel13</value></data>
+  <data name="ultraLabel19.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;btnJV2.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="&gt;&gt;lblHistory.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve"><value>btnClose</value></data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ULGData.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAFAAAA
+Cw==</value></data><data name="&gt;&gt;txtSalesTaxValue.ZOrder" xml:space="preserve"><value>49</value></data>
+  <data name="&gt;&gt;ultraLabel12.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel12.Name" xml:space="preserve"><value>ultraLabel12</value></data>
+  <data name="txtWorkerInsurense.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>581</value></data>
+  <data name="&gt;&gt;cboContracts.Name" xml:space="preserve"><value>cboContracts</value></data>
+  <data name="&gt;&gt;cboContracts.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraComboEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtTotalPrice.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="ultraLabel5.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>585</value></data>
+  <data name="txtNotes.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMQAAAAyAAAACw==</value></data><data name="&gt;&gt;btnDelete.Name" xml:space="preserve"><value>btnDelete</value></data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;cboSalesTax.Name" xml:space="preserve"><value>cboSalesTax</value></data>
+  <data name="&gt;&gt;cboSalesTax.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraComboEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;ultraLabel18.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnOpenTicket.ZOrder" xml:space="preserve"><value>72</value></data>
+  <data name="&gt;&gt;btnJV2.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtDownPaymentPercentage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACwAAAAZAAAACw==</value></data><data name="ultraLabel11.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABaAwAARQAAAAs=</value></data><data name="&gt;&gt;lblTitle2.ZOrder" xml:space="preserve"><value>25</value></data>
+  <data name="&gt;&gt;ultraLabel9.Name" xml:space="preserve"><value>ultraLabel9</value></data>
+  <data name="&gt;&gt;ultraLabel9.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtWorkerInsurense.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHEAAAAZAAAACw==</value></data><data name="ultraLabel19.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>582</value></data>
+  <data name="&gt;&gt;ultraLabel8.ZOrder" xml:space="preserve"><value>30</value></data>
+  <data name="&gt;&gt;lblDate.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblDate.Name" xml:space="preserve"><value>lblDate</value></data>
+  <data name="&gt;&gt;ultraLabel15.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnNext.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnNext.Name" xml:space="preserve"><value>btnNext</value></data>
+  <data name="ultraLabel5.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADQAQAARQAAAAs=</value></data><data name="&gt;&gt;ultraLabel6.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="cboTransactionBranch.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACUAgAA2QEAAAs=</value></data><data name="txtSalesTax.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>581</value></data>
+  <data name="&gt;&gt;ultraLabel15.ZOrder" xml:space="preserve"><value>54</value></data>
+  <data name="&gt;&gt;ultraLabel16.ZOrder" xml:space="preserve"><value>40</value></data>
+  <data name="&gt;&gt;ultraLabel13.ZOrder" xml:space="preserve"><value>58</value></data>
+  <data name="ultraLabel16.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;cboTransactionBranch.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraComboEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;cboTransactionBranch.Name" xml:space="preserve"><value>cboTransactionBranch</value></data>
+  <data name="ultraLabel6.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAkAgAAXwAAAAs=</value></data><data name="&gt;&gt;ultraLabel8.Name" xml:space="preserve"><value>ultraLabel8</value></data>
+  <data name="ULGData.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="txtNotes.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABVAAAAQgAAAAs=</value></data><data name="&gt;&gt;ultraLabel8.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ULGData.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMDAAAOAQAACw==</value></data><data name="ultraLabel19.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;$this.Name" xml:space="preserve"><value>frmContractsDues</value></data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve"><value>ERP.AbstractForms.frmHeaderDetails, ERP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+  <data name="cboSalesTax.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAA1AQAAnAEAAAs=</value></data><data name="&gt;&gt;btnSearch.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnSearch.Name" xml:space="preserve"><value>btnSearch</value></data>
+  <data name="ultraLabel8.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;ultraLabel5.Name" xml:space="preserve"><value>ultraLabel5</value></data>
+  <data name="&gt;&gt;ultraLabel5.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblCode.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACQAAAAeAAAACw==</value></data><data name="lblNotes.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>147</value></data>
+  <data name="ultraLabel2.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>582</value></data>
+  <data name="&gt;&gt;cboContracts.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="btnJV2.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAA
+Cw==</value></data><data name="&gt;&gt;txtSupplyPercentage.ZOrder" xml:space="preserve"><value>61</value></data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve"><value>btnCancel</value></data>
+  <data name="&gt;&gt;ultraLabel8.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel15.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>576</value></data>
+  <data name="&gt;&gt;txtSalesTaxValue.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;ultraLabel7.Name" xml:space="preserve"><value>ultraLabel7</value></data>
+  <data name="&gt;&gt;ultraLabel7.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ultraLabel20.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="txtConstractionInsurensePercentage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD3AQAAWwAAAAs=</value></data><data name="&gt;&gt;lblTitle2.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtCode.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="ultraLabel15.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;ultraLabel4.Name" xml:space="preserve"><value>ultraLabel4</value></data>
+  <data name="&gt;&gt;ultraLabel4.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="dtpDate.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMQAAAAZAAAACw==</value></data><data name="txtErectionPercentage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACwAAAAZAAAACw==</value></data><data name="&gt;&gt;ultraLabel1.Name" xml:space="preserve"><value>ultraLabel1</value></data>
+  <data name="&gt;&gt;ultraLabel1.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ultraLabel20.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;ultraLabel6.ZOrder" xml:space="preserve"><value>31</value></data>
+  <data name="txtConstractionInsurensePercentage.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;txtSalesTax.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtSalesTax.Name" xml:space="preserve"><value>txtSalesTax</value></data>
+  <data name="&gt;&gt;ultraLabel6.Name" xml:space="preserve"><value>ultraLabel6</value></data>
+  <data name="&gt;&gt;ultraLabel6.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnUpdate.Name" xml:space="preserve"><value>btnUpdate</value></data>
+  <data name="&gt;&gt;btnUpdate.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ultraLabel9.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="txtNetPrice.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;txtConstractionInsurensePercentage.ZOrder" xml:space="preserve"><value>34</value></data>
+  <data name="&gt;&gt;cboContracts.ZOrder" xml:space="preserve"><value>66</value></data>
+  <data name="&gt;&gt;ultraLabel3.Name" xml:space="preserve"><value>ultraLabel3</value></data>
+  <data name="&gt;&gt;ultraLabel3.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ultraLabel18.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>582</value></data>
+  <data name="lblContracts.Text" xml:space="preserve"><value>Contract</value></data>
+  <data name="lblContracts.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADgAAAASAAAACw==</value></data><data name="UGBDetails.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAIAAAAdgAAAAs=</value></data><data name="&gt;&gt;btnAdd.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="btnJV2.Text" xml:space="preserve"><value>JV 2</value></data>
+  <data name="btnJV2.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAD8AAAAXAAAACw==</value></data><data name="txtWorkerInsurensePercentage.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve"><value>4</value></data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve"><value>15</value></data>
+  <data name="&gt;&gt;lblTitle2.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblTitle2.Name" xml:space="preserve"><value>lblTitle2</value></data>
+  <data name="ultraLabel17.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="txtWorkerInsurensePercentage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACwAAAAZAAAACw==</value></data><data name="&gt;&gt;btnNext.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;ultraLabel2.Name" xml:space="preserve"><value>ultraLabel2</value></data>
+  <data name="&gt;&gt;ultraLabel2.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblContracts.Name" xml:space="preserve"><value>lblContracts</value></data>
+  <data name="&gt;&gt;lblContracts.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblNotes.ZOrder" xml:space="preserve"><value>68</value></data>
+  <data name="ultraLabel2.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel14.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>575</value></data>
+  <data name="txtCommercialTax.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB2AAAAuwEAAAs=</value></data><data name="ultraLabel3.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve"><value>lblTitle</value></data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtSupplyPercentage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel10.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="lblContracts.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;ultraLabel3.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnNext.ZOrder" xml:space="preserve"><value>8</value></data>
+  <data name="lblContracts.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>148</value></data>
+  <data name="&gt;&gt;txtConstractionInsurensePercentage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="cboContracts.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMQAAAAZAAAACw==</value></data><data name="&gt;&gt;lblBottom.Name" xml:space="preserve"><value>lblBottom</value></data>
+  <data name="&gt;&gt;lblBottom.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="dtpDate.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>10</value></data>
+  <data name="ultraLabel4.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACGAQAAXwAAAAs=</value></data><data name="txtSalesTax.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB+AQAAugEAAAs=</value></data><data name="ultraLabel20.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAwAwAAvgEAAAs=</value></data><data name="&gt;&gt;txtNetPrice.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblNotes.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;ultraLabel5.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnImport.Name" xml:space="preserve"><value>btnImport</value></data>
+  <data name="&gt;&gt;btnImport.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ultraLabel12.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtSalesTaxValue.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="txtConstractionInsurensePercentage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>583</value></data>
+  <data name="&gt;&gt;ultraLabel3.ZOrder" xml:space="preserve"><value>63</value></data>
+  <data name="ultraLabel19.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAKAwAAoQEAAAs=</value></data><data name="&gt;&gt;btnRefreshData.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnRefreshData.Name" xml:space="preserve"><value>btnRefreshData</value></data>
+  <data name="&gt;&gt;txtNotes.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="ultraLabel4.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="ultraLabel13.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblDate.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>146</value></data>
+  <data name="ultraLabel6.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>587</value></data>
+  <data name="&gt;&gt;btnCopyTo.ZOrder" xml:space="preserve"><value>5</value></data>
+  <data name="lblDate.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;ultraLabel12.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtNetPrice.ZOrder" xml:space="preserve"><value>45</value></data>
+  <data name="&gt;&gt;btnCopyTo.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtTotalPrice.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHEAAAAZAAAACw==</value></data><data name="&gt;&gt;btnExport.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtNetPrice.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>581</value></data>
+  <data name="&gt;&gt;txtNotes.ZOrder" xml:space="preserve"><value>69</value></data>
+  <data name="ultraLabel16.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="&gt;&gt;btnCopyTo.Name" xml:space="preserve"><value>btnCopyTo</value></data>
+  <data name="&gt;&gt;btnCopyTo.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="ultraLabel20.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>582</value></data>
+  <data name="txtSupplyPercentage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>569</value></data>
+  <data name="ultraLabel5.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;ultraLabel5.ZOrder" xml:space="preserve"><value>35</value></data>
+  <data name="txtWorkerInsurense.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="ultraLabel3.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABEAQAARQAAAAs=</value></data><data name="txtTestPercentage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>571</value></data>
+  </root>

@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="&gt;&gt;txtOccupancyPercentage.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtOccupancyPercentage.Name" xml:space="preserve"><value>txtOccupancyPercentage</value></data>
+  <data name="txtDouble.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;UGBBoarding.ZOrder" xml:space="preserve"><value>99</value></data>
+  <data name="&gt;&gt;lblEgyptiansNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblEgyptiansNote.Name" xml:space="preserve"><value>lblEgyptiansNote</value></data>
+  <data name="txtAvailableRoomsAverage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIcAAAAZAAAACw==</value></data><data name="&gt;&gt;lblSoldRoomsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSoldRoomsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="&gt;&gt;lblSoldRoomsOrderNote.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="txtQuartetNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="txtSingle.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAApQAAAAs=</value></data><data name="lblHostingRoomsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>534</value></data>
+  <data name="&gt;&gt;txtEgyptians.ZOrder" xml:space="preserve"><value>92</value></data>
+  <data name="lblSingle.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACkAAAASAAAACw==</value></data><data name="lblSingle.Text" xml:space="preserve"><value>Single</value></data>
+  <data name="txtSoldRoomsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAIAwAAPAAAAAs=</value></data><data name="&gt;&gt;txtSoldRoomsOrderNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtSoldRoomsOrderNote.Name" xml:space="preserve"><value>txtSoldRoomsOrderNote</value></data>
+  <data name="&gt;&gt;txtBONote.ZOrder" xml:space="preserve"><value>43</value></data>
+  <data name="lblOther.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>586</value></data>
+  <data name="&gt;&gt;txtDoubleNote.ZOrder" xml:space="preserve"><value>29</value></data>
+  <data name="txtQuartetNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>553</value></data>
+  <data name="&gt;&gt;txtOccupancyPercentage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblCompanies.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD8AQAARgEAAAs=</value></data><data name="lblTransferCount.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>606</value></data>
+  <data name="lblHB.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>558</value></data>
+  <data name="&gt;&gt;lblSingle.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblSingle.Name" xml:space="preserve"><value>lblSingle</value></data>
+  <data name="lblQuartetNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblQuartetNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="appearance8.TextHAlignAsString" xml:space="preserve"><value>Center</value></data>
+  <data name="&gt;&gt;lblSoldRoomsOrder.Parent" xml:space="preserve"><value>UGBMarketShare</value></data>
+  <data name="txtSoldRooms.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;btnUpdate.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblAvailableRooms.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve"><value>btnAdd</value></data>
+  <data name="&gt;&gt;dtpDate.ZOrder" xml:space="preserve"><value>95</value></data>
+  <data name="&gt;&gt;txtAvailableRoomsAverage.Name" xml:space="preserve"><value>txtAvailableRoomsAverage</value></data>
+  <data name="&gt;&gt;txtAvailableRoomsAverage.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtBONote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="&gt;&gt;lblAgentsNotes.ZOrder" xml:space="preserve"><value>80</value></data>
+  <data name="resource.Name" xml:space="preserve"><value>Arial</value></data>
+  <data name="txtCompaniesNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>577</value></data>
+  <data name="&gt;&gt;txtSingle.ZOrder" xml:space="preserve"><value>34</value></data>
+  <data name="lblQuartetNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADGAgAAxAAAAAs=</value></data><data name="lblEgyptiansNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>592</value></data>
+  <data name="UGBSourcing.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAASAAAAMQEAAAs=</value></data><data name="txtRoomsRevenue.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACVAQAAIQAAAAs=</value></data><data name="&gt;&gt;lblInternetNote.Name" xml:space="preserve"><value>lblInternetNote</value></data>
+  <data name="&gt;&gt;lblInternetNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtInternetNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAHAwAAXQEAAAs=</value></data><data name="lblForeigns.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>594</value></data>
+  <data name="lblTriple.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblSoldRoomsOrderNote.Parent" xml:space="preserve"><value>UGBMarketShare</value></data>
+  <data name="&gt;&gt;txtRoomsRevenue.Name" xml:space="preserve"><value>txtRoomsRevenue</value></data>
+  <data name="&gt;&gt;UGBNationality.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtRoomsRevenue.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtOtherNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtFBNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtEgyptiansNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAAqAEAAAs=</value></data><data name="lblSoldRoomsOrder.Text" xml:space="preserve"><value>Market - sold rooms </value></data>
+  <data name="lblSoldRoomsOrder.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAH4AAAASAAAACw==</value></data><data name="UGBTypeOfRoom.Text" xml:space="preserve"><value>Type Of Room</value></data>
+  <data name="UGBTypeOfRoom.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAM4DAABTAAAACw==</value></data><data name="&gt;&gt;btnClose.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtInternetNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>585</value></data>
+  <data name="&gt;&gt;lblRight.ZOrder" xml:space="preserve"><value>12</value></data>
+  <data name="&gt;&gt;btnKeyboard.ZOrder" xml:space="preserve"><value>65</value></data>
+  <data name="&gt;&gt;txtSingle.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtTransferCount.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>607</value></data>
+  <data name="&gt;&gt;lblTriple.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblTriple.Name" xml:space="preserve"><value>lblTriple</value></data>
+  <data name="&gt;&gt;lblCompaniesNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblCompaniesNote.Name" xml:space="preserve"><value>lblCompaniesNote</value></data>
+  <data name="txtTriple.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>547</value></data>
+  <data name="&gt;&gt;txtAgentsNote.ZOrder" xml:space="preserve"><value>81</value></data>
+  <data name="&gt;&gt;txtEgyptians.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtOtherNote.ZOrder" xml:space="preserve"><value>72</value></data>
+  <data name="&gt;&gt;lblCode.Name" xml:space="preserve"><value>lblCode</value></data>
+  <data name="&gt;&gt;lblCode.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblForeignsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>596</value></data>
+  <data name="&gt;&gt;txtForeigns.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="appearance8.TextVAlignAsString" xml:space="preserve"><value>Middle</value></data>
+  <data name="&gt;&gt;txtBONote.Name" xml:space="preserve"><value>txtBONote</value></data>
+  <data name="&gt;&gt;txtBONote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblRight.Name" xml:space="preserve"><value>lblRight</value></data>
+  <data name="&gt;&gt;lblRight.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblSoldRoomsOrder.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblSoldRoomsOrder.Name" xml:space="preserve"><value>lblSoldRoomsOrder</value></data>
+  <data name="lblOtherNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>588</value></data>
+  <data name="&gt;&gt;txtCompanies.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtCompanies.Name" xml:space="preserve"><value>txtCompanies</value></data>
+  <data name="&gt;&gt;btnOpenTicket.Name" xml:space="preserve"><value>btnOpenTicket</value></data>
+  <data name="&gt;&gt;btnOpenTicket.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblOccupancyPercentage.ZOrder" xml:space="preserve"><value>60</value></data>
+  <data name="&gt;&gt;txtPersons.ZOrder" xml:space="preserve"><value>94</value></data>
+  <data name="&gt;&gt;lblRight.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtFB.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblRoomsRevenue.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtFBNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>557</value></data>
+  <data name="lblAvailableRoomsAverage.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblTitle.Font" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3
+aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAA
+AAZUYWhvbWEAACBBBfz///8YU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAQAAAAd2YWx1ZV9fAAgC
+AAAAAAAAAAX7////G1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAEAAAAHdmFsdWVfXwAIAgAA
+AAMAAAAL</value></data><data name="lblSoldRoomsOrderNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAgAAGgAAAAs=</value></data><data name="lblTitle.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAP8BAAAeAAAACw==</value></data><data name="lblEgyptians.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEAAAAASAAAACw==</value></data><data name="lblEgyptians.Text" xml:space="preserve"><value>Egyptions</value></data>
+  <data name="&gt;&gt;txtDouble.Name" xml:space="preserve"><value>txtDouble</value></data>
+  <data name="&gt;&gt;txtDouble.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtOtherNote.Name" xml:space="preserve"><value>txtOtherNote</value></data>
+  <data name="&gt;&gt;txtOtherNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtSoldRooms.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABcAgAAPAAAAAs=</value></data><data name="&gt;&gt;txtFB.ZOrder" xml:space="preserve"><value>56</value></data>
+  <data name="&gt;&gt;txtOther.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="btnPriveous.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABuAQAAAgAAAAs=</value></data><data name="&gt;&gt;lblBONote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtEgyptians.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;txtOccupancyOrder.Parent" xml:space="preserve"><value>UGBMarketShare</value></data>
+  <data name="lblAgentsNotes.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>580</value></data>
+  <data name="&gt;&gt;txtAgentsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblSoldRoomsNote.ZOrder" xml:space="preserve"><value>62</value></data>
+  <data name="txtQuartet.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABcAgAAwAAAAAs=</value></data><data name="resource.UnderlineAsString1" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.UnderlineAsString2" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.UnderlineAsString3" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.UnderlineAsString4" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.UnderlineAsString5" xml:space="preserve"><value>Default</value></data>
+  <data name="lblDoubleNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblDoubleNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="&gt;&gt;txtSoldRoomsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve"><value>42</value></data>
+  <data name="txtAvailableRoomsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAAPAAAAAs=</value></data><data name="lblTripleNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtSingle.Name" xml:space="preserve"><value>txtSingle</value></data>
+  <data name="&gt;&gt;txtSingle.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblEgyptiansNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblQuartet.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADMAAAASAAAACw==</value></data><data name="lblQuartet.Text" xml:space="preserve"><value>Quartet</value></data>
+  <data name="&gt;&gt;txtTransferCount.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="txtOccupancyOrderNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALoAAAAZAAAACw==</value></data><data name="&gt;&gt;UGBNationality.ZOrder" xml:space="preserve"><value>104</value></data>
+  <data name="lblDouble.Text" xml:space="preserve"><value>Double</value></data>
+  <data name="lblDouble.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAC8AAAASAAAACw==</value></data><data name="resource.ItalicAsString" xml:space="preserve"><value>Default</value></data>
+  <data name="txtDoubleNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAHAwAApQAAAAs=</value></data><data name="&gt;&gt;btnUpdate.ZOrder" xml:space="preserve"><value>9</value></data>
+  <data name="&gt;&gt;lblEgyptiansNote.ZOrder" xml:space="preserve"><value>89</value></data>
+  <data name="txtInternetNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="txtForeignsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="txtAgentsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="&gt;&gt;lblAgents.Parent" xml:space="preserve"><value>UGBSourcing</value></data>
+  <data name="&gt;&gt;txtBONote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtOther.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAeAEAAAs=</value></data><data name="&gt;&gt;txtOccupancyPercentage.ZOrder" xml:space="preserve"><value>61</value></data>
+  <data name="&gt;&gt;lblBONote.ZOrder" xml:space="preserve"><value>41</value></data>
+  <data name="btnCopyTo.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC8AQAAAgAAAAs=</value></data><data name="lblQuartet.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>550</value></data>
+  <data name="&gt;&gt;lblForeigns.Name" xml:space="preserve"><value>lblForeigns</value></data>
+  <data name="&gt;&gt;lblForeigns.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="btnClose.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADHAwAAAgAAAAs=</value></data><data name="&gt;&gt;lblBONote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblBONote.Name" xml:space="preserve"><value>lblBONote</value></data>
+  <data name="&gt;&gt;dtpDate.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtBONote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>569</value></data>
+  <data name="lblBBNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtSoldRoomsAverage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAVwAAAAs=</value></data><data name="txtCompaniesNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="&gt;&gt;txtFBNote.ZOrder" xml:space="preserve"><value>54</value></data>
+  <data name="&gt;&gt;txtCode.ZOrder" xml:space="preserve"><value>4</value></data>
+  <data name="&gt;&gt;txtAvailableRoomsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblOther.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblFBNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>556</value></data>
+  <data name="UGBDetails.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMoDAADhAAAACw==</value></data><data name="UGBDetails.Text" xml:space="preserve"><value>Transfer</value></data>
+  <data name="&gt;&gt;lblAgents.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="txtOtherNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAAeAEAAAs=</value></data><data name="&gt;&gt;lblSoldRoomsNote.Name" xml:space="preserve"><value>lblSoldRoomsNote</value></data>
+  <data name="&gt;&gt;lblSoldRoomsNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblHistory.Name" xml:space="preserve"><value>lblHistory</value></data>
+  <data name="&gt;&gt;lblHistory.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblRoomsRevenueNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblRoomsRevenueNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="UGBBoarding.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAM4DAABOAAAACw==</value></data><data name="lblSoldRooms.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="UGBBoarding.Text" xml:space="preserve"><value>Boarding</value></data>
+  <data name="lblSoldRoomsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblSoldRoomsNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="txtOtherNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>589</value></data>
+  <data name="lblForeignsNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblForeignsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="&gt;&gt;lblRoomsRevenueNote.ZOrder" xml:space="preserve"><value>77</value></data>
+  <data name="lblSingle.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtOccupancyOrder.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>599</value></data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOgDAAAMAwAACw==</value></data><data name="lblBO.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>566</value></data>
+  <data name="txtBB.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>563</value></data>
+  <data name="txtEgyptiansNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="resource.BoldAsString" xml:space="preserve"><value>True</value></data>
+  <data name="&gt;&gt;txtOther.ZOrder" xml:space="preserve"><value>73</value></data>
+  <data name="&gt;&gt;btnKeyboard.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnSaveClose.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtAvailableRoomsNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblPersons.Name" xml:space="preserve"><value>lblPersons</value></data>
+  <data name="&gt;&gt;txtAvailableRoomsNote.Name" xml:space="preserve"><value>txtAvailableRoomsNote</value></data>
+  <data name="&gt;&gt;lblPersons.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblOtherNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblOtherNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="&gt;&gt;btnCancel.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblEgyptiansNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAArAEAAAs=</value></data><data name="btnNext.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAChAQAAAgAAAAs=</value></data><data name="&gt;&gt;lblBottom.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblOccupancyOrder.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAAGgAAAAs=</value></data><data name="&gt;&gt;txtAgents.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtAgents.Name" xml:space="preserve"><value>txtAgents</value></data>
+  <data name="txtPersons.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAQgEAAAs=</value></data><data name="&gt;&gt;txtOccupancyOrder.ZOrder" xml:space="preserve"><value>5</value></data>
+  <data name="&gt;&gt;UGBDetails.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraGroupBox, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;UGBDetails.Name" xml:space="preserve"><value>UGBDetails</value></data>
+  <data name="txtSingle.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>539</value></data>
+  <data name="&gt;&gt;lblOccupancyPercentage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtOther.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtSoldRoomsOrder.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;txtOther.Name" xml:space="preserve"><value>txtOther</value></data>
+  <data name="&gt;&gt;lblForeignsNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblForeignsNote.Name" xml:space="preserve"><value>lblForeignsNote</value></data>
+  <data name="lblAvailableRoomsNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblTop.Name" xml:space="preserve"><value>lblTop</value></data>
+  <data name="&gt;&gt;lblTop.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblOutOfServiceRoomsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>536</value></data>
+  <data name="&gt;&gt;btnSaveClose.Name" xml:space="preserve"><value>btnSaveClose</value></data>
+  <data name="&gt;&gt;btnSaveClose.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblEgyptians.Parent" xml:space="preserve"><value>UGBNationality</value></data>
+  <data name="txtTriple.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAwAAAAAs=</value></data><data name="lblOccupancyOrderNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblOccupancyOrderNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="UGBDetails.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAFAAAA
+Cw==</value></data><data name="txtCompanies.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>575</value></data>
+  <data name="lblDouble.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD8AQAAqQAAAAs=</value></data><data name="txtAgents.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="lblBBNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblBBNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve"><value>8</value></data>
+  <data name="&gt;&gt;lblQuartet.ZOrder" xml:space="preserve"><value>23</value></data>
+  <data name="&gt;&gt;txtTransferCount.Parent" xml:space="preserve"><value>UGBDetails</value></data>
+  <data name="&gt;&gt;lblEgyptians.Name" xml:space="preserve"><value>lblEgyptians</value></data>
+  <data name="&gt;&gt;lblEgyptians.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblInternetNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>584</value></data>
+  <data name="lblHistory.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAABgMAAAs=</value></data><data name="txtTransferCount.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABYAwAAxQAAAAs=</value></data><data name="btnKeyboard.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACWAwAAAgAAAAs=</value></data><data name="resource.StrikeoutAsString2" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.StrikeoutAsString3" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.StrikeoutAsString1" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.StrikeoutAsString4" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.StrikeoutAsString5" xml:space="preserve"><value>Default</value></data>
+  <data name="lblOutOfServiceRooms.Text" xml:space="preserve"><value>Out Of Order</value></data>
+  <data name="lblOutOfServiceRooms.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFQAAAASAAAACw==</value></data><data name="lblSoldRoomsOrder.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADxAQAAGgAAAAs=</value></data><data name="HostingRooms.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>532</value></data>
+  <data name="txtHostingRooms.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEcAAAAZAAAACw==</value></data><data name="txtOccupancyPercentage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADbAgAAVwAAAAs=</value></data><data name="&gt;&gt;lblHostingRoomsNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblHostingRoomsNote.Name" xml:space="preserve"><value>lblHostingRoomsNote</value></data>
+  <data name="lblCompaniesNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADGAgAARgEAAAs=</value></data><data name="txtCompanies.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="lblCode.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABdAQAAAgAAAAs=</value></data><data name="&gt;&gt;txtAvailableRoomsNote.ZOrder" xml:space="preserve"><value>69</value></data>
+  <data name="&gt;&gt;UGBDetails.ZOrder" xml:space="preserve"><value>19</value></data>
+  <data name="&gt;&gt;lblTransferCount.Name" xml:space="preserve"><value>lblTransferCount</value></data>
+  <data name="&gt;&gt;lblTransferCount.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtSoldRoomsAverage.ZOrder" xml:space="preserve"><value>59</value></data>
+  <data name="lblSoldRoomsAverage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAB4AAAASAAAACw==</value></data><data name="lblSoldRoomsAverage.Text" xml:space="preserve"><value>ARR</value></data>
+  <data name="&gt;&gt;txtTriple.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtRoomsRevenue.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblSingleNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblOutOfServiceRooms.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblOutOfServiceRooms.Name" xml:space="preserve"><value>lblOutOfServiceRooms</value></data>
+  <data name="&gt;&gt;UGBDetails.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblAvailableRooms.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAANAAAAQAAAAAs=</value></data><data name="lblOutOfServiceRooms.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAARAAAAdgAAAAs=</value></data><data name="lblAvailableRoomsAverage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADQAAAASAAAACw==</value></data><data name="lblAvailableRoomsAverage.Text" xml:space="preserve"><value>Rev Par</value></data>
+  <data name="lblHBNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADGAgAA/AAAAAs=</value></data><data name="&gt;&gt;txtEgyptiansNote.Name" xml:space="preserve"><value>txtEgyptiansNote</value></data>
+  <data name="&gt;&gt;txtEgyptiansNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblBBNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblBBNote.Name" xml:space="preserve"><value>lblBBNote</value></data>
+  <data name="&gt;&gt;txtCode.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtAvailableRooms.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAPAAAAAs=</value></data><data name="&gt;&gt;txtHostingRooms.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtHostingRooms.Name" xml:space="preserve"><value>txtHostingRooms</value></data>
+  <data name="txtEgyptiansNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>593</value></data>
+  <data name="lblAgents.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>578</value></data>
+  <data name="&gt;&gt;txtFB.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtFB.Name" xml:space="preserve"><value>txtFB</value></data>
+  <data name="txtForeigns.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;txtTripleNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblDate.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtTripleNote.Name" xml:space="preserve"><value>txtTripleNote</value></data>
+  <data name="txtDouble.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>543</value></data>
+  <data name="lblCompanies.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>574</value></data>
+  <data name="&gt;&gt;lblTransferCount.Parent" xml:space="preserve"><value>UGBDetails</value></data>
+  <data name="txtHBNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAHAwAA+AAAAAs=</value></data><data name="&gt;&gt;txtSoldRoomsAverage.Name" xml:space="preserve"><value>txtSoldRoomsAverage</value></data>
+  <data name="&gt;&gt;lblBottom.ZOrder" xml:space="preserve"><value>13</value></data>
+  <data name="&gt;&gt;txtSoldRoomsAverage.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblOccupancyOrderNote.ZOrder" xml:space="preserve"><value>6</value></data>
+  <data name="&gt;&gt;lblQuartet.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblQuartet.Name" xml:space="preserve"><value>lblQuartet</value></data>
+  <data name="txtDouble.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABcAgAApQAAAAs=</value></data><data name="lblSoldRoomsAverage.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtTripleNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>549</value></data>
+  <data name="lblOccupancyPercentage.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblPersons.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>570</value></data>
+  <data name="&gt;&gt;btnSaveClose.ZOrder" xml:space="preserve"><value>17</value></data>
+  <data name="txtAvailableRoomsAverage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>529</value></data>
+  <data name="txtHBNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="txtPersons.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;btnPriveous.Name" xml:space="preserve"><value>btnPriveous</value></data>
+  <data name="&gt;&gt;btnPriveous.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblHBNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblHBNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblRoomsRevenueNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve"><value>btnOK</value></data>
+  <data name="&gt;&gt;lblAvailableRoomsAverage.ZOrder" xml:space="preserve"><value>57</value></data>
+  <data name="&gt;&gt;UGBSourcing.Name" xml:space="preserve"><value>UGBSourcing</value></data>
+  <data name="lblHostingRoomsNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblHostingRoomsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="&gt;&gt;UGBSourcing.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraGroupBox, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtRoomsRevenueNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>511</value></data>
+  <data name="&gt;&gt;btnAttachFile.ZOrder" xml:space="preserve"><value>108</value></data>
+  <data name="txtQuartet.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>551</value></data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve"><value>6</value></data>
+  <data name="lblDate.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAANAAAAJgAAAAs=</value></data><data name="lblQuartet.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD8AQAAxAAAAAs=</value></data><data name="&gt;&gt;lblEgyptians.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="txtBB.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAEwEAAAs=</value></data><data name="&gt;&gt;txtForeignsNote.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="lblBO.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD8AQAAFwEAAAs=</value></data><data name="txtHostingRooms.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABsAgAAcgAAAAs=</value></data><data name="&gt;&gt;lblAgents.Name" xml:space="preserve"><value>lblAgents</value></data>
+  <data name="&gt;&gt;lblAgents.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtDoubleNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="UGBNationality.Text" xml:space="preserve"><value>Nationality</value></data>
+  <data name="UGBNationality.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAM4DAAAxAAAACw==</value></data><data name="&gt;&gt;txtFBNote.Name" xml:space="preserve"><value>txtFBNote</value></data>
+  <data name="&gt;&gt;txtFBNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblDouble.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtCompaniesNote.Name" xml:space="preserve"><value>txtCompaniesNote</value></data>
+  <data name="&gt;&gt;txtCompaniesNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblQuartetNote.Name" xml:space="preserve"><value>lblQuartetNote</value></data>
+  <data name="&gt;&gt;lblQuartetNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblPersons.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAAFQAAAAs=</value></data><data name="UGBBoarding.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAASAAAA4wAAAAs=</value></data><data name="&gt;&gt;lblOther.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="&gt;&gt;lblAgentsNotes.Name" xml:space="preserve"><value>lblAgentsNotes</value></data>
+  <data name="&gt;&gt;lblAgentsNotes.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblQuartet.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblTransferCount.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAF8AAAASAAAACw==</value></data><data name="lblTransferCount.Text" xml:space="preserve"><value>Transfer Count</value></data>
+  <data name="&gt;&gt;txtDoubleNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtDoubleNote.Name" xml:space="preserve"><value>txtDoubleNote</value></data>
+  <data name="txtFB.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>555</value></data>
+  <data name="&gt;&gt;lblAvailableRooms.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblAvailableRooms.Name" xml:space="preserve"><value>lblAvailableRooms</value></data>
+  <data name="&gt;&gt;lblSingleNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblLeft.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnAttachFile.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblSoldRoomsOrderNote.Name" xml:space="preserve"><value>lblSoldRoomsOrderNote</value></data>
+  <data name="&gt;&gt;lblSoldRoomsOrderNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblForeigns.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblRoomsRevenue.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblRoomsRevenue.Name" xml:space="preserve"><value>lblRoomsRevenue</value></data>
+  <data name="&gt;&gt;txtSoldRoomsAverage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblTripleNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblTripleNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblAgentsNotes.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtOccupancyOrderNote.Parent" xml:space="preserve"><value>UGBMarketShare</value></data>
+  <data name="&gt;&gt;lblLeft.ZOrder" xml:space="preserve"><value>14</value></data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblSoldRoomsOrderNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>604</value></data>
+  <data name="&gt;&gt;lblOutOfServiceRooms.ZOrder" xml:space="preserve"><value>64</value></data>
+  <data name="&gt;&gt;txtOccupancyOrderNote.ZOrder" xml:space="preserve"><value>7</value></data>
+  <data name="&gt;&gt;txtPersonsNote.Name" xml:space="preserve"><value>txtPersonsNote</value></data>
+  <data name="&gt;&gt;txtPersonsNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblFBNote.ZOrder" xml:space="preserve"><value>53</value></data>
+  <data name="lblHistory.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAO0CAAATAAAACw==</value></data><data name="lblAvailableRoomsAverage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>528</value></data>
+  <data name="&gt;&gt;txtHostingRooms.ZOrder" xml:space="preserve"><value>40</value></data>
+  <data name="txtCode.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAQAAAwAAAAs=</value></data><data name="txtBBNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="lblSoldRoomsOrder.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;btnPrint.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;cboTransactionBranch.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtDouble.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtTriple.ZOrder" xml:space="preserve"><value>27</value></data>
+  <data name="&gt;&gt;lblSingleNote.ZOrder" xml:space="preserve"><value>32</value></data>
+  <data name="&gt;&gt;lblFBNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtCompanies.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABcAgAAQgEAAAs=</value></data><data name="&gt;&gt;txtBO.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtBO.Name" xml:space="preserve"><value>txtBO</value></data>
+  <data name="&gt;&gt;txtAgentsNote.Name" xml:space="preserve"><value>txtAgentsNote</value></data>
+  <data name="&gt;&gt;txtAgentsNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;UGBTypeOfRoom.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraGroupBox, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblPersonsNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblPersonsNote.Name" xml:space="preserve"><value>lblPersonsNote</value></data>
+  <data name="&gt;&gt;UGBTypeOfRoom.Name" xml:space="preserve"><value>UGBTypeOfRoom</value></data>
+  <data name="&gt;&gt;lblFB.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="lblBottom.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAACgMAAAs=</value></data><data name="&gt;&gt;btnPrint.ZOrder" xml:space="preserve"><value>11</value></data>
+  <data name="&gt;&gt;txtForeignsNote.Parent" xml:space="preserve"><value>UGBNationality</value></data>
+  <data name="lblBB.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>562</value></data>
+  <data name="lblEgyptians.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="&gt;&gt;lblAvailableRoomsAverage.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblAvailableRoomsAverage.Name" xml:space="preserve"><value>lblAvailableRoomsAverage</value></data>
+  <data name="&gt;&gt;txtHBNote.Name" xml:space="preserve"><value>txtHBNote</value></data>
+  <data name="&gt;&gt;txtHBNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblOccupancyOrderNote.Parent" xml:space="preserve"><value>UGBMarketShare</value></data>
+  <data name="&gt;&gt;lblOutOfServiceRoomsNote.Name" xml:space="preserve"><value>lblOutOfServiceRoomsNote</value></data>
+  <data name="&gt;&gt;lblOutOfServiceRoomsNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblInternetNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblDate.Text" xml:space="preserve"><value>Date</value></data>
+  <data name="lblDate.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="&gt;&gt;txtRoomsRevenue.ZOrder" xml:space="preserve"><value>97</value></data>
+  <data name="txtBBNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>565</value></data>
+  <data name="txtPersonsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="lblOutOfServiceRooms.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblSingleNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAAqQAAAAs=</value></data><data name="lblAvailableRooms.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblDoubleNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADGAgAAqQAAAAs=</value></data><data name="lblRoomsRevenueNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtOutOfServiceRooms.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtDouble.ZOrder" xml:space="preserve"><value>31</value></data>
+  <data name="txtOtherNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="lblSoldRoomsNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblCompaniesNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblCompaniesNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblHBNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>560</value></data>
+  <data name="lblPersons.Text" xml:space="preserve"><value>Individual </value></data>
+  <data name="lblPersons.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEAAAAASAAAACw==</value></data><data name="lblEgyptiansNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblEgyptiansNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="&gt;&gt;lblTransferCount.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="ULGData.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAFAAAAAs=</value></data><data name="lblFB.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAAGQAAAAs=</value></data><data name="txtSoldRoomsAverage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>527</value></data>
+  <data name="&gt;&gt;cboTransactionBranch.ZOrder" xml:space="preserve"><value>111</value></data>
+  <data name="UGBMarketShare.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>610</value></data>
+  <data name="&gt;&gt;lblInternetNote.ZOrder" xml:space="preserve"><value>74</value></data>
+  <data name="&gt;&gt;lblSoldRoomsAverage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtCode.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtCode.Name" xml:space="preserve"><value>txtCode</value></data>
+  <data name="&gt;&gt;lblPersons.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="lblOutOfServiceRoomsNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtInternet.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABcAgAAXQEAAAs=</value></data><data name="&gt;&gt;lblTriple.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="&gt;&gt;lblSoldRoomsAverage.ZOrder" xml:space="preserve"><value>78</value></data>
+  <data name="lblBONote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADGAgAAFwEAAAs=</value></data><data name="&gt;&gt;lblOther.Parent" xml:space="preserve"><value>UGBSourcing</value></data>
+  <data name="&gt;&gt;lblAvailableRoomsAverage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblForeignsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADFAgAArAEAAAs=</value></data><data name="lblInternet.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtAvailableRoomsAverage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACxAQAAVwAAAAs=</value></data><data name="&gt;&gt;txtSingleNote.ZOrder" xml:space="preserve"><value>33</value></data>
+  <data name="&gt;&gt;lblForeignsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtHBNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>561</value></data>
+  <data name="&gt;&gt;lblBO.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtOccupancyOrder.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACRAAAAFwAAAAs=</value></data><data name="&gt;&gt;ULGData.Parent" xml:space="preserve"><value>UGBDetails</value></data>
+  <data name="&gt;&gt;dtUsersTransactions.Name" xml:space="preserve"><value>dtUsersTransactions</value></data>
+  <data name="&gt;&gt;dtUsersTransactions.Type" xml:space="preserve"><value>System.Data.DataTable, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;txtHB.ZOrder" xml:space="preserve"><value>52</value></data>
+  <data name="dtpDate.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAIQAAAAs=</value></data><data name="lblBBNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>564</value></data>
+  <data name="txtAvailableRoomsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="lblOther.Text" xml:space="preserve"><value>Other</value></data>
+  <data name="lblOther.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACcAAAASAAAACw==</value></data><data name="resource.BoldAsString3" xml:space="preserve"><value>True</value></data>
+  <data name="resource.BoldAsString2" xml:space="preserve"><value>True</value></data>
+  <data name="resource.BoldAsString1" xml:space="preserve"><value>True</value></data>
+  <data name="resource.BoldAsString5" xml:space="preserve"><value>True</value></data>
+  <data name="resource.BoldAsString4" xml:space="preserve"><value>True</value></data>
+  <data name="&gt;&gt;txtQuartet.Name" xml:space="preserve"><value>txtQuartet</value></data>
+  <data name="&gt;&gt;txtQuartet.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnAttachFile.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnAttachFile.Name" xml:space="preserve"><value>btnAttachFile</value></data>
+  <data name="UGBNationality.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>609</value></data>
+  <data name="&gt;&gt;lblOccupancyPercentage.Name" xml:space="preserve"><value>lblOccupancyPercentage</value></data>
+  <data name="&gt;&gt;lblOccupancyPercentage.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtPersons.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>571</value></data>
+  <data name="&gt;&gt;lblSoldRooms.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;UGBMarketShare.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtBB.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtBB.Name" xml:space="preserve"><value>txtBB</value></data>
+  <data name="&gt;&gt;lblFB.Parent" xml:space="preserve"><value>UGBBoarding</value></data>
+  <data name="&gt;&gt;btnPrint.Name" xml:space="preserve"><value>btnPrint</value></data>
+  <data name="&gt;&gt;btnPrint.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblOutOfServiceRooms.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblAvailableRoomsNote.Name" xml:space="preserve"><value>lblAvailableRoomsNote</value></data>
+  <data name="txtHostingRoomsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAHAwAAcgAAAAs=</value></data><data name="&gt;&gt;lblAvailableRoomsNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblOutOfServiceRoomsNote.ZOrder" xml:space="preserve"><value>35</value></data>
+  <data name="HostingRooms.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblBB.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtHostingRooms.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtQuartet.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;lblTriple.Parent" xml:space="preserve"><value>UGBTypeOfRoom</value></data>
+  <data name="txtSoldRoomsOrderNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAcAwAAFgAAAAs=</value></data><data name="lblHB.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtAvailableRooms.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="lblTransferCount.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;btnOK.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblOccupancyOrderNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;btnKeyboard.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnKeyboard.Name" xml:space="preserve"><value>btnKeyboard</value></data>
+  <data name="&gt;&gt;ULGData.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="txtOutOfServiceRoomsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>537</value></data>
+  <data name="&gt;&gt;UGBMarketShare.ZOrder" xml:space="preserve"><value>105</value></data>
+  <data name="txtOccupancyOrder.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;txtBB.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblInternetNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblInternetNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="&gt;&gt;btnSetting.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblTripleNote.ZOrder" xml:space="preserve"><value>25</value></data>
+  <data name="lblTransferCount.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblAgentsNotes.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAAYQEAAAs=</value></data><data name="&gt;&gt;lblSingleNote.Name" xml:space="preserve"><value>lblSingleNote</value></data>
+  <data name="&gt;&gt;lblSingleNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblRoomsRevenue.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGcAAAASAAAACw==</value></data><data name="lblRoomsRevenue.Text" xml:space="preserve"><value>Rooms Revenue</value></data>
+  <data name="&gt;&gt;txtRoomsRevenueNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtBB.ZOrder" xml:space="preserve"><value>48</value></data>
+  <data name="txtForeigns.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABcAgAAqAEAAAs=</value></data><data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve"><value>7</value></data>
+  <data name="txtTriple.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="lblPersonsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>572</value></data>
+  <data name="&gt;&gt;txtSingleNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblDoubleNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>544</value></data>
+  <data name="btnSearch.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACIAQAAAgAAAAs=</value></data><data name="&gt;&gt;lblOccupancyOrder.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblOccupancyOrder.Name" xml:space="preserve"><value>lblOccupancyOrder</value></data>
+  <data name="&gt;&gt;txtInternetNote.ZOrder" xml:space="preserve"><value>75</value></data>
+  <data name="txtHB.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABcAgAA+AAAAAs=</value></data><data name="&gt;&gt;txtInternetNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtInternetNote.Name" xml:space="preserve"><value>txtInternetNote</value></data>
+  <data name="&gt;&gt;txtOutOfServiceRooms.ZOrder" xml:space="preserve"><value>55</value></data>
+  <data name="&gt;&gt;lblAvailableRoomsNote.ZOrder" xml:space="preserve"><value>68</value></data>
+  <data name="lblTriple.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACcAAAASAAAACw==</value></data><data name="lblTriple.Text" xml:space="preserve"><value>Triple</value></data>
+  <data name="&gt;&gt;lblCompanies.Name" xml:space="preserve"><value>lblCompanies</value></data>
+  <data name="&gt;&gt;lblCompanies.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblSoldRooms.ZOrder" xml:space="preserve"><value>66</value></data>
+  <data name="lblOccupancyPercentage.Text" xml:space="preserve"><value>Occupancy %</value></data>
+  <data name="lblOccupancyPercentage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFgAAAASAAAACw==</value></data><data name="txtAgentsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAAXQEAAAs=</value></data><data name="&gt;&gt;lblAvailableRoomsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblPersons.Parent" xml:space="preserve"><value>UGBSourcing</value></data>
+  <data name="txtHB.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>559</value></data>
+  <data name="&gt;&gt;btnSetting.Name" xml:space="preserve"><value>btnSetting</value></data>
+  <data name="&gt;&gt;btnSetting.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnPriveous.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblOutOfServiceRoomsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblAvailableRoomsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>514</value></data>
+  <data name="&gt;&gt;lblTripleNote.Name" xml:space="preserve"><value>lblTripleNote</value></data>
+  <data name="&gt;&gt;lblTripleNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblDouble.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblDouble.Name" xml:space="preserve"><value>lblDouble</value></data>
+  <data name="&gt;&gt;txtTriple.Name" xml:space="preserve"><value>txtTriple</value></data>
+  <data name="&gt;&gt;txtTriple.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtHB.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="resource.ItalicAsString4" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.ItalicAsString5" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.ItalicAsString1" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.ItalicAsString2" xml:space="preserve"><value>Default</value></data>
+  <data name="resource.ItalicAsString3" xml:space="preserve"><value>Default</value></data>
+  <data name="&gt;&gt;txtSoldRoomsOrder.Name" xml:space="preserve"><value>txtSoldRoomsOrder</value></data>
+  <data name="&gt;&gt;txtSoldRoomsOrder.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblSoldRooms.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblSoldRooms.Name" xml:space="preserve"><value>lblSoldRooms</value></data>
+  <data name="txtSoldRoomsAverage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="lblFB.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>554</value></data>
+  <data name="&gt;&gt;txtRoomsRevenueNote.ZOrder" xml:space="preserve"><value>91</value></data>
+  <data name="&gt;&gt;lblForeignsNote.ZOrder" xml:space="preserve"><value>103</value></data>
+  <data name="&gt;&gt;btnSearch.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="txtDoubleNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>545</value></data>
+  <data name="UGBMarketShare.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAASAAAAywEAAAs=</value></data><data name="&gt;&gt;btnRefreshData.ZOrder" xml:space="preserve"><value>16</value></data>
+  <data name="&gt;&gt;txtQuartetNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtTransferCount.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAALAAAA
+Cw==</value></data><data name="lblTransferCount.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAA
+Cw==</value></data><data name="txtAgents.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAXQEAAAs=</value></data><data name="&gt;&gt;txtCompaniesNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtPersonsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAAQgEAAAs=</value></data><data name="txtOccupancyPercentage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>525</value></data>
+  <data name="txtOutOfServiceRooms.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>531</value></data>
+  <data name="&gt;&gt;btnPriveous.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="lblSoldRoomsOrderNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblEgyptians.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblInternet.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>582</value></data>
+  <data name="&gt;&gt;txtOutOfServiceRoomsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblBO.ZOrder" xml:space="preserve"><value>44</value></data>
+  <data name="lblFB.Text" xml:space="preserve"><value>FB</value></data>
+  <data name="lblFB.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABQAAAASAAAACw==</value></data><data name="lblSoldRoomsAverage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAANAAAAWwAAAAs=</value></data><data name="txtOutOfServiceRoomsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="txtInternet.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;lblInternet.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnSearch.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSingleNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAApQAAAAs=</value></data><data name="&gt;&gt;lblDate.ZOrder" xml:space="preserve"><value>106</value></data>
+  <data name="&gt;&gt;lblLeft.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblLeft.Name" xml:space="preserve"><value>lblLeft</value></data>
+  <data name="&gt;&gt;txtBBNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblAvailableRooms.Text" xml:space="preserve"><value>Rooms Available</value></data>
+  <data name="lblAvailableRooms.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGgAAAASAAAACw==</value></data><data name="&gt;&gt;lblInternet.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblAvailableRooms.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>512</value></data>
+  <data name="&gt;&gt;lblInternet.Name" xml:space="preserve"><value>lblInternet</value></data>
+  <data name="&gt;&gt;lblForeigns.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;UGBSourcing.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSingle.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="lblPersonsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblPersonsNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="&gt;&gt;txtCompaniesNote.ZOrder" xml:space="preserve"><value>84</value></data>
+  <data name="&gt;&gt;lblCode.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtAgents.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>579</value></data>
+  <data name="&gt;&gt;txtPersons.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtPersons.Name" xml:space="preserve"><value>txtPersons</value></data>
+  <data name="&gt;&gt;lblCompanies.ZOrder" xml:space="preserve"><value>85</value></data>
+  <data name="&gt;&gt;ULGData.Name" xml:space="preserve"><value>ULGData</value></data>
+  <data name="&gt;&gt;ULGData.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics4.Win.UltraWinGrid.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtInternetNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtBO.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>567</value></data>
+  <data name="lblForeigns.Text" xml:space="preserve"><value>Foreigns</value></data>
+  <data name="lblForeigns.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADgAAAASAAAACw==</value></data><data name="&gt;&gt;UGBBoarding.Name" xml:space="preserve"><value>UGBBoarding</value></data>
+  <data name="&gt;&gt;UGBBoarding.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraGroupBox, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblTripleNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>548</value></data>
+  <data name="&gt;&gt;btnRefreshData.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblDoubleNote.ZOrder" xml:space="preserve"><value>28</value></data>
+  <data name="&gt;&gt;txtSoldRoomsOrder.Parent" xml:space="preserve"><value>UGBMarketShare</value></data>
+  <data name="&gt;&gt;txtQuartetNote.ZOrder" xml:space="preserve"><value>22</value></data>
+  <data name="txtEgyptians.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAqAEAAAs=</value></data><data name="lblSingle.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAAHAAAAAs=</value></data><data name="lblBONote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtTripleNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAAwAAAAAs=</value></data><data name="&gt;&gt;btnSetting.ZOrder" xml:space="preserve"><value>110</value></data>
+  <data name="lblCompanies.Text" xml:space="preserve"><value>Corporate </value></data>
+  <data name="lblCompanies.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEEAAAASAAAACw==</value></data><data name="txtSingleNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>541</value></data>
+  <data name="&gt;&gt;txtForeignsNote.Name" xml:space="preserve"><value>txtForeignsNote</value></data>
+  <data name="lblOccupancyPercentage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>524</value></data>
+  <data name="&gt;&gt;txtForeignsNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtOccupancyOrder.Name" xml:space="preserve"><value>txtOccupancyOrder</value></data>
+  <data name="&gt;&gt;txtOccupancyOrder.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtOutOfServiceRoomsNote.ZOrder" xml:space="preserve"><value>36</value></data>
+  <data name="&gt;&gt;lblTop.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblHistory.ZOrder" xml:space="preserve"><value>18</value></data>
+  <data name="&gt;&gt;lblTripleNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtSoldRooms.Name" xml:space="preserve"><value>txtSoldRooms</value></data>
+  <data name="&gt;&gt;txtSoldRooms.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnOpenTicket.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtTripleNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="lblForeignsNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtAgents.ZOrder" xml:space="preserve"><value>82</value></data>
+  <data name="lblHB.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD8AQAA/AAAAAs=</value></data><data name="lblInternet.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADYAAAASAAAACw==</value></data><data name="lblInternet.Text" xml:space="preserve"><value>Internet</value></data>
+  <data name="&gt;&gt;txtOutOfServiceRoomsNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtOutOfServiceRoomsNote.Name" xml:space="preserve"><value>txtOutOfServiceRoomsNote</value></data>
+  <data name="&gt;&gt;lblDouble.ZOrder" xml:space="preserve"><value>30</value></data>
+  <data name="&gt;&gt;lblDoubleNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtAvailableRooms.Name" xml:space="preserve"><value>txtAvailableRooms</value></data>
+  <data name="&gt;&gt;txtAvailableRooms.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtCompanies.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblTriple.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>546</value></data>
+  <data name="txtAvailableRooms.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>513</value></data>
+  <data name="txtEgyptians.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>591</value></data>
+  <data name="txtCompaniesNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAHAwAAQgEAAAs=</value></data><data name="txtRoomsRevenueNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABdAgAAIQAAAAs=</value></data><data name="lblTripleNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAAxAAAAAs=</value></data><data name="lblRoomsRevenue.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>505</value></data>
+  <data name="&gt;&gt;lblTop.ZOrder" xml:space="preserve"><value>15</value></data>
+  <data name="&gt;&gt;txtSoldRoomsOrderNote.Parent" xml:space="preserve"><value>UGBMarketShare</value></data>
+  <data name="&gt;&gt;HostingRooms.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblOccupancyOrder.ZOrder" xml:space="preserve"><value>4</value></data>
+  <data name="&gt;&gt;lblForeigns.ZOrder" xml:space="preserve"><value>101</value></data>
+  <data name="&gt;&gt;dtpDate.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraDateTimeEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;dtpDate.Name" xml:space="preserve"><value>dtpDate</value></data>
+  <data name="&gt;&gt;lblCode.ZOrder" xml:space="preserve"><value>5</value></data>
+  <data name="txtOccupancyOrderNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAlAQAAFwAAAAs=</value></data><data name="&gt;&gt;txtQuartet.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblOccupancyOrder.Parent" xml:space="preserve"><value>UGBMarketShare</value></data>
+  <data name="txtSingleNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="txtSoldRoomsOrderNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKwAAAAZAAAACw==</value></data><data name="&gt;&gt;lblInternet.ZOrder" xml:space="preserve"><value>76</value></data>
+  <data name="lblSoldRoomsOrder.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>602</value></data>
+  <data name="&gt;&gt;txtSoldRoomsOrder.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="&gt;&gt;lblDate.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblOccupancyOrderNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD7AAAAGgAAAAs=</value></data><data name="txtRoomsRevenue.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="UGBMarketShare.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAM4DAAA9AAAACw==</value></data><data name="UGBMarketShare.Text" xml:space="preserve"><value>Market Share</value></data>
+  <data name="lblHostingRoomsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADGAgAAdgAAAAs=</value></data><data name="&gt;&gt;txtOutOfServiceRooms.Name" xml:space="preserve"><value>txtOutOfServiceRooms</value></data>
+  <data name="&gt;&gt;txtOutOfServiceRooms.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblDoubleNote.Name" xml:space="preserve"><value>lblDoubleNote</value></data>
+  <data name="&gt;&gt;txtHB.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblDoubleNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtHB.Name" xml:space="preserve"><value>txtHB</value></data>
+  <data name="&gt;&gt;UGBSourcing.ZOrder" xml:space="preserve"><value>100</value></data>
+  <data name="&gt;&gt;txtAvailableRooms.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblSoldRoomsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADHAgAAQAAAAAs=</value></data><data name="UGBTypeOfRoom.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAASAAAAjQAAAAs=</value></data><data name="&gt;&gt;lblFB.Name" xml:space="preserve"><value>lblFB</value></data>
+  <data name="&gt;&gt;lblFB.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblHB.Name" xml:space="preserve"><value>lblHB</value></data>
+  <data name="&gt;&gt;lblHB.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblHistory.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve"><value>btnClose</value></data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblOccupancyPercentage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABuAgAAWwAAAAs=</value></data><data name="ULGData.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAANAAAA
+Cw==</value></data><data name="&gt;&gt;txtSingleNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtSingleNote.Name" xml:space="preserve"><value>txtSingleNote</value></data>
+  <data name="&gt;&gt;txtAvailableRooms.ZOrder" xml:space="preserve"><value>70</value></data>
+  <data name="lblOccupancyOrder.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtBBNote.ZOrder" xml:space="preserve"><value>47</value></data>
+  <data name="lblOutOfServiceRooms.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>530</value></data>
+  <data name="&gt;&gt;lblCompanies.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve"><value>btnDelete</value></data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblCompaniesNote.ZOrder" xml:space="preserve"><value>83</value></data>
+  <data name="lblBONote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblBONote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="&gt;&gt;txtAgents.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblHostingRoomsNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblCompaniesNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnOpenTicket.ZOrder" xml:space="preserve"><value>109</value></data>
+  <data name="lblFB.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtHBNote.ZOrder" xml:space="preserve"><value>50</value></data>
+  <data name="&gt;&gt;lblHBNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblHBNote.Name" xml:space="preserve"><value>lblHBNote</value></data>
+  <data name="&gt;&gt;UGBMarketShare.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraGroupBox, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;UGBMarketShare.Name" xml:space="preserve"><value>UGBMarketShare</value></data>
+  <data name="lblTitle2.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOYDAAAeAAAACw==</value></data><data name="lblEgyptians.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAAFgAAAAs=</value></data><data name="lblOccupancyOrder.Text" xml:space="preserve"><value>Market – Occupancy </value></data>
+  <data name="lblOccupancyOrder.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIAAAAASAAAACw==</value></data><data name="&gt;&gt;lblTitle2.ZOrder" xml:space="preserve"><value>107</value></data>
+  <data name="&gt;&gt;lblDouble.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtEgyptians.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtEgyptians.Name" xml:space="preserve"><value>txtEgyptians</value></data>
+  <data name="lblQuartetNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>552</value></data>
+  <data name="&gt;&gt;txtCompanies.ZOrder" xml:space="preserve"><value>86</value></data>
+  <data name="&gt;&gt;txtHBNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSoldRooms.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>521</value></data>
+  <data name="lblEgyptiansNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblDate.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblDate.Name" xml:space="preserve"><value>lblDate</value></data>
+  <data name="txtBBNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAAEwEAAAs=</value></data><data name="&gt;&gt;btnNext.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnNext.Name" xml:space="preserve"><value>btnNext</value></data>
+  <data name="lblAgents.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblRoomsRevenue.ZOrder" xml:space="preserve"><value>96</value></data>
+  <data name="&gt;&gt;txtForeigns.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtForeigns.Name" xml:space="preserve"><value>txtForeigns</value></data>
+  <data name="&gt;&gt;lblRoomsRevenueNote.Name" xml:space="preserve"><value>lblRoomsRevenueNote</value></data>
+  <data name="&gt;&gt;lblRoomsRevenueNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblInternet.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD8AQAAYQEAAAs=</value></data><data name="&gt;&gt;cboTransactionBranch.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraComboEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;cboTransactionBranch.Name" xml:space="preserve"><value>cboTransactionBranch</value></data>
+  <data name="lblFBNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblFBNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="&gt;&gt;txtRoomsRevenueNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtRoomsRevenueNote.Name" xml:space="preserve"><value>txtRoomsRevenueNote</value></data>
+  <data name="lblAvailableRoomsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAAQAAAAAs=</value></data><data name="lblCompaniesNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="ULGData.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMQDAACvAAAACw==</value></data><data name="&gt;&gt;$this.Name" xml:space="preserve"><value>frmFrontOfficeData</value></data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve"><value>ERP.AbstractForms.frmHeaderDetails, ERP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+  <data name="txtSoldRoomsOrder.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAgAAFgAAAAs=</value></data><data name="&gt;&gt;txtAvailableRoomsAverage.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;HostingRooms.ZOrder" xml:space="preserve"><value>39</value></data>
+  <data name="txtAgentsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>581</value></data>
+  <data name="&gt;&gt;btnSearch.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnSearch.Name" xml:space="preserve"><value>btnSearch</value></data>
+  <data name="lblCode.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAAAAAAeAAAACw==</value></data><data name="lblTitle.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACbAQAAAgAAAAs=</value></data><data name="txtOther.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;txtPersonsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtHostingRoomsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>535</value></data>
+  <data name="txtHostingRooms.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>533</value></data>
+  <data name="txtPersonsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>573</value></data>
+  <data name="&gt;&gt;txtSoldRoomsNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtSoldRoomsNote.Name" xml:space="preserve"><value>txtSoldRoomsNote</value></data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve"><value>btnCancel</value></data>
+  <data name="&gt;&gt;txtSoldRoomsOrderNote.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="txtFB.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="txtOutOfServiceRooms.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAAcgAAAAs=</value></data><data name="&gt;&gt;lblQuartetNote.ZOrder" xml:space="preserve"><value>21</value></data>
+  <data name="&gt;&gt;lblTitle2.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="UGBSourcing.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>608</value></data>
+  <data name="UGBSourcing.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAM4DAABnAAAACw==</value></data><data name="UGBSourcing.Text" xml:space="preserve"><value>Sourcing</value></data>
+  <data name="resource.UnderlineAsString" xml:space="preserve"><value>Default</value></data>
+  <data name="&gt;&gt;lblRoomsRevenue.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="dtpDate.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIcAAAAZAAAACw==</value></data><data name="&gt;&gt;lblFBNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblFBNote.Name" xml:space="preserve"><value>lblFBNote</value></data>
+  <data name="&gt;&gt;txtEgyptiansNote.ZOrder" xml:space="preserve"><value>90</value></data>
+  <data name="&gt;&gt;lblSingle.Parent" xml:space="preserve"><value>UGBTypeOfRoom</value></data>
+  <data name="lblAgents.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFgAAAASAAAACw==</value></data><data name="lblAgents.Text" xml:space="preserve"><value>Travel Agents</value></data>
+  <data name="lblPersonsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAARgEAAAs=</value></data><data name="lblBB.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABUAAAASAAAACw==</value></data><data name="lblBB.Text" xml:space="preserve"><value>BB</value></data>
+  <data name="txtOccupancyPercentage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIcAAAAZAAAACw==</value></data><data name="&gt;&gt;txtInternet.ZOrder" xml:space="preserve"><value>79</value></data>
+  <data name="&gt;&gt;lblHBNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtQuartet.ZOrder" xml:space="preserve"><value>24</value></data>
+  <data name="&gt;&gt;btnUpdate.Name" xml:space="preserve"><value>btnUpdate</value></data>
+  <data name="&gt;&gt;btnUpdate.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblPersons.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblSoldRooms.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAFAgAAPwAAAAs=</value></data><data name="&gt;&gt;lblBB.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="&gt;&gt;txtPersonsNote.ZOrder" xml:space="preserve"><value>88</value></data>
+  <data name="lblQuartet.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblHBNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;txtEgyptiansNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblTransferCount.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADdAgAAyQAAAAs=</value></data><data name="lblSingle.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>538</value></data>
+  <data name="lblSingleNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>540</value></data>
+  <data name="txtSoldRoomsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>523</value></data>
+  <data name="UGBDetails.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAASAAAADgIAAAs=</value></data><data name="lblBONote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>568</value></data>
+  <data name="&gt;&gt;txtInternet.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtSoldRoomsOrderNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>605</value></data>
+  <data name="&gt;&gt;txtHostingRoomsNote.ZOrder" xml:space="preserve"><value>38</value></data>
+  <data name="&gt;&gt;lblOther.Name" xml:space="preserve"><value>lblOther</value></data>
+  <data name="&gt;&gt;lblOther.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve"><value>20</value></data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve"><value>10</value></data>
+  <data name="&gt;&gt;lblTitle2.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblTitle2.Name" xml:space="preserve"><value>lblTitle2</value></data>
+  <data name="lblBO.Text" xml:space="preserve"><value>BO</value></data>
+  <data name="lblBO.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAASAAAACw==</value></data><data name="lblOtherNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtBONote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAHAwAAEwEAAAs=</value></data><data name="&gt;&gt;txtBBNote.Name" xml:space="preserve"><value>txtBBNote</value></data>
+  <data name="&gt;&gt;txtBBNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtFBNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAA+AAAAAs=</value></data><data name="&gt;&gt;btnNext.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblQuartetNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblBBNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAAFwEAAAs=</value></data><data name="lblSoldRoomsAverage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>526</value></data>
+  <data name="txtHB.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="lblDouble.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>542</value></data>
+  <data name="lblCompanies.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblBO.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblBB.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAANAAAAAs=</value></data><data name="lblRight.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAIAAAAIAwAACw==</value></data><data name="txtOutOfServiceRoomsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAnAQAAcgAAAAs=</value></data><data name="lblInternetNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADGAgAAYQEAAAs=</value></data><data name="txtTransferCount.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;txtOccupancyOrderNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtOccupancyOrderNote.Name" xml:space="preserve"><value>txtOccupancyOrderNote</value></data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtOutOfServiceRooms.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="&gt;&gt;lblPersonsNote.ZOrder" xml:space="preserve"><value>87</value></data>
+  <data name="&gt;&gt;lblHB.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;UGBTypeOfRoom.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblHostingRoomsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtRoomsRevenue.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>507</value></data>
+  <data name="&gt;&gt;UGBNationality.Name" xml:space="preserve"><value>UGBNationality</value></data>
+  <data name="&gt;&gt;UGBNationality.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraGroupBox, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve"><value>lblTitle</value></data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblInternetNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblHB.ZOrder" xml:space="preserve"><value>51</value></data>
+  <data name="UGBNationality.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAASAAAAlgEAAAs=</value></data><data name="lblAgents.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAAMAAAAAs=</value></data><data name="lblOtherNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAAfAEAAAs=</value></data><data name="&gt;&gt;txtAvailableRoomsAverage.ZOrder" xml:space="preserve"><value>58</value></data>
+  <data name="&gt;&gt;lblSingle.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="lblOther.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAASwAAAAs=</value></data><data name="lblForeigns.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD/AQAArAEAAAs=</value></data><data name="txtRoomsRevenueNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAH8BAAAZAAAACw==</value></data><data name="txtBO.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABcAgAAEwEAAAs=</value></data><data name="lblDoubleNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="resource.StrikeoutAsString" xml:space="preserve"><value>Default</value></data>
+  <data name="txtForeignsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>597</value></data>
+  <data name="&gt;&gt;btnNext.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="&gt;&gt;txtBO.ZOrder" xml:space="preserve"><value>45</value></data>
+  <data name="txtBO.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="lblOccupancyOrder.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>598</value></data>
+  <data name="&gt;&gt;txtHostingRoomsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblSoldRooms.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>520</value></data>
+  <data name="lblRoomsRevenueNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>510</value></data>
+  <data name="lblSoldRoomsOrderNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblSoldRoomsOrderNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="txtFBNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="lblQuartetNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;lblBottom.Name" xml:space="preserve"><value>lblBottom</value></data>
+  <data name="&gt;&gt;lblBottom.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblBB.Name" xml:space="preserve"><value>lblBB</value></data>
+  <data name="dtpDate.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>508</value></data>
+  <data name="&gt;&gt;lblBB.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblHBNote.ZOrder" xml:space="preserve"><value>49</value></data>
+  <data name="&gt;&gt;lblOtherNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblOtherNote.Name" xml:space="preserve"><value>lblOtherNote</value></data>
+  <data name="&gt;&gt;lblBB.Parent" xml:space="preserve"><value>UGBBoarding</value></data>
+  <data name="txtAvailableRoomsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>515</value></data>
+  <data name="lblFBNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="txtFB.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACDAAAA+AAAAAs=</value></data><data name="&gt;&gt;txtInternet.Name" xml:space="preserve"><value>txtInternet</value></data>
+  <data name="&gt;&gt;txtInternet.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblTriple.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAANwAAAAs=</value></data><data name="lblOutOfServiceRoomsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblOutOfServiceRoomsNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="&gt;&gt;lblOtherNote.ZOrder" xml:space="preserve"><value>71</value></data>
+  <data name="txtOccupancyOrderNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>601</value></data>
+  <data name="&gt;&gt;lblBBNote.ZOrder" xml:space="preserve"><value>46</value></data>
+  <data name="&gt;&gt;lblSoldRoomsOrder.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="&gt;&gt;lblPersonsNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblOtherNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblBBNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtBO.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblHB.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABYAAAASAAAACw==</value></data><data name="lblHB.Text" xml:space="preserve"><value>HB</value></data>
+  <data name="lblSoldRooms.Text" xml:space="preserve"><value>Rooms Sold</value></data>
+  <data name="lblSoldRooms.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEwAAAASAAAACw==</value></data><data name="&gt;&gt;HostingRooms.Name" xml:space="preserve"><value>HostingRooms</value></data>
+  <data name="&gt;&gt;txtSoldRooms.ZOrder" xml:space="preserve"><value>67</value></data>
+  <data name="&gt;&gt;HostingRooms.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="txtForeigns.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>595</value></data>
+  <data name="&gt;&gt;btnRefreshData.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;btnRefreshData.Name" xml:space="preserve"><value>btnRefreshData</value></data>
+  <data name="&gt;&gt;txtTripleNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblBO.Name" xml:space="preserve"><value>lblBO</value></data>
+  <data name="&gt;&gt;lblBO.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="lblLeft.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAIAAAAKAwAACw==</value></data><data name="&gt;&gt;txtDoubleNote.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="txtOther.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>587</value></data>
+  <data name="&gt;&gt;txtHostingRoomsNote.Name" xml:space="preserve"><value>txtHostingRoomsNote</value></data>
+  <data name="lblCompaniesNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>576</value></data>
+  <data name="&gt;&gt;txtHostingRoomsNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblAvailableRooms.ZOrder" xml:space="preserve"><value>93</value></data>
+  <data name="lblPersonsNote.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="lblFBNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAA/AAAAAs=</value></data><data name="&gt;&gt;txtQuartetNote.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtQuartetNote.Name" xml:space="preserve"><value>txtQuartetNote</value></data>
+  <data name="UGBBoarding.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>607</value></data>
+  <data name="lblOccupancyOrderNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>600</value></data>
+  <data name="&gt;&gt;UGBBoarding.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblDate.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>509</value></data>
+  <data name="lblSoldRoomsNote.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>522</value></data>
+  <data name="lblRoomsRevenueNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD/AQAAJgAAAAs=</value></data><data name="lblOutOfServiceRoomsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAAdgAAAAs=</value></data><data name="txtQuartetNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAHAwAAwAAAAAs=</value></data><data name="lblAgentsNotes.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblAgentsNotes.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblSingleNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="lblSingleNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="HostingRooms.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABsAAAASAAAACw==</value></data><data name="HostingRooms.Text" xml:space="preserve"><value>H.U</value></data>
+  <data name="txtForeignsNote.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD2AgAAEgAAAAs=</value></data><data name="&gt;&gt;btnCopyTo.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="txtSoldRoomsOrder.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>603</value></data>
+  <data name="&gt;&gt;txtTransferCount.Type" xml:space="preserve"><value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;txtTransferCount.Name" xml:space="preserve"><value>txtTransferCount</value></data>
+  <data name="lblDate.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="txtInternet.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>583</value></data>
+  <data name="UGBTypeOfRoom.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>606</value></data>
+  <data name="&gt;&gt;txtPersons.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="lblAvailableRoomsNote.Text" xml:space="preserve"><value>Note</value></data>
+  <data name="lblAvailableRoomsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACEAAAASAAAACw==</value></data><data name="&gt;&gt;txtSoldRooms.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;btnCopyTo.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;lblOccupancyOrderNote.Name" xml:space="preserve"><value>lblOccupancyOrderNote</value></data>
+  <data name="&gt;&gt;lblOccupancyOrderNote.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblHostingRoomsNote.ZOrder" xml:space="preserve"><value>37</value></data>
+  <data name="&gt;&gt;txtForeigns.ZOrder" xml:space="preserve"><value>102</value></data>
+  <data name="txtBB.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAZAAAACw==</value></data><data name="lblRoomsRevenue.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAeAQAAJgAAAAs=</value></data><data name="txtHostingRoomsNote.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAAAZAAAACw==</value></data><data name="lblAvailableRoomsAverage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAANAQAAWwAAAAs=</value></data><data name="&gt;&gt;btnCopyTo.Name" xml:space="preserve"><value>btnCopyTo</value></data>
+  <data name="&gt;&gt;btnCopyTo.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblAgentsNotes.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;txtSoldRoomsNote.ZOrder" xml:space="preserve"><value>63</value></data>
+  <data name="&gt;&gt;lblSoldRoomsAverage.Type" xml:space="preserve"><value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value></data>
+  <data name="&gt;&gt;lblSoldRoomsAverage.Name" xml:space="preserve"><value>lblSoldRoomsAverage</value></data>
+  <data name="HostingRooms.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD8AQAAdgAAAAs=</value></data><data name="&gt;&gt;UGBTypeOfRoom.ZOrder" xml:space="preserve"><value>98</value></data>
+  <data name="&gt;&gt;txtTripleNote.ZOrder" xml:space="preserve"><value>26</value></data>
+  </root>

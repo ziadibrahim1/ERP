@@ -1,0 +1,363 @@
+using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Windows.Forms;
+using BusinessLayer.CustomsClearence;
+using ERP.AbstractForms;
+using ERP.Classes;
+using ERP.Properties;
+using Infragistics.Win;
+using Infragistics.Win.Misc;
+using Infragistics.Win.UltraWinEditors;
+using Infragistics.Win.UltraWinTree;
+
+namespace ERP.CustomsClearence.Reports;
+
+public class frmOperationsDocuments : frmReportTree2010
+{
+	private IContainer components = null;
+
+	public UltraButton btnPortsSearch;
+
+	public UltraTextEditor txtPorts;
+
+	public UltraTree TreePorts;
+
+	protected internal UltraCheckEditor chkAllPorts;
+
+	public UltraButton btnExportTypesSearch;
+
+	public UltraTextEditor txtExportTypes;
+
+	public UltraTree TreeExportTypes;
+
+	protected internal UltraCheckEditor chkAllExportTypes;
+
+	public frmOperationsDocuments()
+	{
+		TreeItems2ParentIDCol = "ParentID";
+		TreeItems2IDCol = "OperationID";
+		TreeItems2NameCol = "operationNo";
+		TreeItems2IsMainCol = "IsMain";
+		InitializeComponent();
+	}
+
+	public override void FormLoad()
+	{
+		base.FormLoad();
+		((UltraToggleEditorBase)chkAll).Checked = true;
+	}
+
+	public override void FillData()
+	{
+		GetBranches();
+		Items = TreeFunctions.GetTreeCheckedNodesIDs(TreeItems);
+		dtItems2 = Operations.FillRepTree(Branches, dtpFromDate.DateTime.Date.ToString(GlobalVariables.DateShortFormate), dtpToDate.DateTime.ToString("MM/dd/yyyy 23:59:59"), GlobalVariables.IsArabic ? "1" : "0");
+		if (dtItems2 != null)
+		{
+			TreeFunctions.FillTree(TreeItems2, dtItems2, TreeItems2ParentIDCol, TreeItems2IDCol, TreeItems2NameCol, TreeItems2NumberCol, TreeItems2IsMainCol);
+		}
+	}
+
+	public override void ShowReport()
+	{
+		GetItems();
+		if (Items2.Equals(","))
+		{
+			GlobalVariables.InformationMB.Show("لم تقم باختيار اى عملية ليتم عرضها ", "There is no chosen Operation to be shown in the report, please check Operations to be shown in report");
+			return;
+		}
+		frmReporViwer frmReporViwer2 = new frmReporViwer();
+		GlobalVariables.ReportDocument.SetParameterValue("@OperationIDs", Items2);
+		if (cboReportType.SelectedIndex > -1 && dtReports.Rows[cboReportType.SelectedIndex]["ProcedureName"].Equals("BillsOfLading"))
+		{
+			GlobalVariables.ReportDocument.SetParameterValue("@BillOfLadingIDs", "-1");
+		}
+		else if (cboReportType.SelectedIndex > -1 && dtReports.Rows[cboReportType.SelectedIndex]["ProcedureName"].Equals("CertificatesOfOrigin"))
+		{
+			GlobalVariables.ReportDocument.SetParameterValue("@CertificateOfOriginIDs", "-1");
+		}
+		else if (cboReportType.SelectedIndex > -1 && dtReports.Rows[cboReportType.SelectedIndex]["ProcedureName"].Equals("PhytosanitaryCertificates"))
+		{
+			GlobalVariables.ReportDocument.SetParameterValue("@PhytosanitaryCertificateIDs", "-1");
+		}
+		GlobalVariables.ReportDocument.SetParameterValue("@IsArabic", ((UltraToggleEditorBase)chkIsArabic).Checked);
+		frmReporViwer2.Tag = base.Tag;
+		frmReporViwer2.MdiParent = base.MdiParent;
+		frmReporViwer2.TopLevel = false;
+		frmReporViwer2.Parent = base.Parent;
+		frmReporViwer2.Width = base.Parent.Width;
+		frmReporViwer2.Height = base.Parent.Height;
+		frmReporViwer2.frmParent = this;
+		frmReporViwer2.Show();
+		frmReporViwer2.BringToFront();
+	}
+
+	public override void btnItems2Search_Click(object sender, EventArgs e)
+	{
+		dtSearchResult = SearchFunctions.CSTOperationsReport(Branches, dtpFromDate.DateTime, dtpToDate.DateTime, "-1", "0");
+		for (int i = 0; i < dtSearchResult.Rows.Count; i++)
+		{
+			TreeItems2.GetNodeByKey(dtSearchResult.Rows[i][TreeItems2IDCol].ToString()).CheckedState = CheckState.Checked;
+		}
+	}
+
+	protected override void Dispose(bool disposing)
+	{
+		if (disposing && components != null)
+		{
+			components.Dispose();
+		}
+		base.Dispose(disposing);
+	}
+
+	private void InitializeComponent()
+	{
+		//IL_0011: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0017: Expected O, but got Unknown
+		//IL_0017: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001d: Expected O, but got Unknown
+		//IL_001d: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0023: Expected O, but got Unknown
+		//IL_0023: Unknown result type (might be due to invalid IL or missing references)
+		//IL_002a: Expected O, but got Unknown
+		//IL_002a: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0031: Expected O, but got Unknown
+		//IL_0031: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0038: Expected O, but got Unknown
+		//IL_0038: Unknown result type (might be due to invalid IL or missing references)
+		//IL_003f: Expected O, but got Unknown
+		//IL_003f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0046: Expected O, but got Unknown
+		//IL_0046: Unknown result type (might be due to invalid IL or missing references)
+		//IL_004d: Expected O, but got Unknown
+		//IL_004d: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0054: Expected O, but got Unknown
+		//IL_0054: Unknown result type (might be due to invalid IL or missing references)
+		//IL_005b: Expected O, but got Unknown
+		//IL_005b: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0062: Expected O, but got Unknown
+		//IL_0062: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0069: Expected O, but got Unknown
+		//IL_006a: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0074: Expected O, but got Unknown
+		//IL_0075: Unknown result type (might be due to invalid IL or missing references)
+		//IL_007f: Expected O, but got Unknown
+		//IL_0080: Unknown result type (might be due to invalid IL or missing references)
+		//IL_008a: Expected O, but got Unknown
+		//IL_008b: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0095: Expected O, but got Unknown
+		//IL_0096: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00a0: Expected O, but got Unknown
+		//IL_00a1: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00ab: Expected O, but got Unknown
+		//IL_00ac: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00b6: Expected O, but got Unknown
+		//IL_00b7: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00c1: Expected O, but got Unknown
+		System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ERP.CustomsClearence.Reports.frmOperationsDocuments));
+		Appearance val = new Appearance();
+		Appearance val2 = new Appearance();
+		Appearance val3 = new Appearance();
+		Appearance val4 = new Appearance();
+		Appearance val5 = new Appearance();
+		Appearance val6 = new Appearance();
+		Appearance val7 = new Appearance();
+		Override val8 = new Override();
+		Appearance val9 = new Appearance();
+		Appearance val10 = new Appearance();
+		Appearance val11 = new Appearance();
+		Override val12 = new Override();
+		Appearance val13 = new Appearance();
+		this.btnPortsSearch = new UltraButton();
+		this.txtPorts = new UltraTextEditor();
+		this.TreePorts = new UltraTree();
+		this.chkAllPorts = new UltraCheckEditor();
+		this.btnExportTypesSearch = new UltraButton();
+		this.txtExportTypes = new UltraTextEditor();
+		this.TreeExportTypes = new UltraTree();
+		this.chkAllExportTypes = new UltraCheckEditor();
+		((System.ComponentModel.ISupportInitialize)base.dtReports).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.dtFormSetting).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.dtpFromDate).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.dtpToDate).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.chkAllBranches).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.chkWithLogo).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.cboReportType).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.chkAll).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.chkAll2).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.TreeItems).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.TreeItems2).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.chkIsArabic).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.txtItems).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.txtItems2).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.cboSetting).BeginInit();
+		((System.ComponentModel.ISupportInitialize)base.dtUsersTransactions).BeginInit();
+		((System.ComponentModel.ISupportInitialize)this.txtPorts).BeginInit();
+		((System.ComponentModel.ISupportInitialize)this.TreePorts).BeginInit();
+		((System.ComponentModel.ISupportInitialize)this.chkAllPorts).BeginInit();
+		((System.ComponentModel.ISupportInitialize)this.txtExportTypes).BeginInit();
+		((System.ComponentModel.ISupportInitialize)this.TreeExportTypes).BeginInit();
+		((System.ComponentModel.ISupportInitialize)this.chkAllExportTypes).BeginInit();
+		base.SuspendLayout();
+		resources.ApplyResources(base.ultraLabel1, "ultraLabel1");
+		((UltraControlBase)base.ultraLabel1).UseAppStyling = false;
+		resources.ApplyResources(base.ultraLabel2, "ultraLabel2");
+		((UltraControlBase)base.ultraLabel2).UseAppStyling = false;
+		((AppearanceBase)val).FontData.Name = resources.GetString("resource.Name");
+		resources.ApplyResources(val, "appearance1");
+		base.dtpFromDate.Appearance = (AppearanceBase)(object)val;
+		base.dtpFromDate.DateTime = new System.DateTime(2019, 1, 28, 0, 0, 0, 0);
+		base.dtpFromDate.MaskInput = "dd/mm/yyyy";
+		base.dtpFromDate.Value = new System.DateTime(2019, 1, 28, 0, 0, 0, 0);
+		((AppearanceBase)val2).FontData.Name = resources.GetString("resource.Name1");
+		resources.ApplyResources(val2, "appearance2");
+		base.dtpToDate.Appearance = (AppearanceBase)(object)val2;
+		base.dtpToDate.DateTime = new System.DateTime(2011, 1, 10, 23, 59, 59, 0);
+		base.dtpToDate.MaskInput = "dd/mm/yyyy";
+		base.dtpToDate.Value = new System.DateTime(2011, 1, 10, 23, 59, 59, 0);
+		resources.ApplyResources(base.chkAllBranches, "chkAllBranches");
+		((UltraControlBase)base.chkAllBranches).UseAppStyling = false;
+		resources.ApplyResources(base.clbBranches, "clbBranches");
+		((UltraControlBase)base.chkWithLogo).UseAppStyling = false;
+		resources.ApplyResources(base.lblReportType, "lblReportType");
+		((UltraControlBase)base.lblReportType).UseAppStyling = false;
+		((AppearanceBase)val3).FontData.Name = resources.GetString("resource.Name2");
+		((TextEditorControlBase)base.cboReportType).Appearance = (AppearanceBase)(object)val3;
+		base.cboReportType.DropDownButtonAlignment = (ButtonAlignment)1;
+		base.cboReportType.DropDownListAlignment = (DropDownListAlignment)2;
+		resources.ApplyResources(base.cboReportType, "cboReportType");
+		resources.ApplyResources(base.chkAll, "chkAll");
+		resources.ApplyResources(base.chkAll2, "chkAll2");
+		resources.ApplyResources(base.TreeItems, "TreeItems");
+		resources.ApplyResources(base.TreeItems2, "TreeItems2");
+		resources.ApplyResources(base.btnItemsSearch, "btnItemsSearch");
+		resources.ApplyResources(base.btnItems2Search, "btnItems2Search");
+		((AppearanceBase)val4).FontData.Name = resources.GetString("resource.Name3");
+		resources.ApplyResources(val4, "appearance4");
+		((TextEditorControlBase)base.txtItems).Appearance = (AppearanceBase)(object)val4;
+		resources.ApplyResources(base.txtItems, "txtItems");
+		((AppearanceBase)val5).FontData.Name = resources.GetString("resource.Name4");
+		resources.ApplyResources(val5, "appearance5");
+		((TextEditorControlBase)base.txtItems2).Appearance = (AppearanceBase)(object)val5;
+		resources.ApplyResources(base.txtItems2, "txtItems2");
+		resources.ApplyResources(this.btnPortsSearch, "btnPortsSearch");
+		((AppearanceBase)val6).Image = ERP.Properties.Resources.search;
+		((ControlBase)this.btnPortsSearch).Appearance = (AppearanceBase)(object)val6;
+		((System.Windows.Forms.Control)(object)this.btnPortsSearch).Name = "btnPortsSearch";
+		resources.ApplyResources(this.txtPorts, "txtPorts");
+		((System.Windows.Forms.Control)(object)this.txtPorts).Name = "txtPorts";
+		resources.ApplyResources(this.TreePorts, "TreePorts");
+		((AppearanceBase)val7).ForeColor = System.Drawing.Color.Navy;
+		this.TreePorts.Appearance = (AppearanceBase)(object)val7;
+		((System.Windows.Forms.Control)(object)this.TreePorts).Name = "TreePorts";
+		val8.NodeStyle = (NodeStyle)1;
+		this.TreePorts.Override = val8;
+		((UltraControlBase)this.TreePorts).UseAppStyling = false;
+		resources.ApplyResources(this.chkAllPorts, "chkAllPorts");
+		((AppearanceBase)val9).BackColor = System.Drawing.Color.Transparent;
+		((AppearanceBase)val9).ForeColor = System.Drawing.Color.Navy;
+		((UltraToggleEditorBase)this.chkAllPorts).Appearance = (AppearanceBase)(object)val9;
+		((System.Windows.Forms.Control)(object)this.chkAllPorts).BackColor = System.Drawing.Color.Transparent;
+		((UltraToggleEditorBase)this.chkAllPorts).BackColorInternal = System.Drawing.Color.Transparent;
+		((System.Windows.Forms.Control)(object)this.chkAllPorts).Name = "chkAllPorts";
+		((UltraControlBase)this.chkAllPorts).UseAppStyling = false;
+		resources.ApplyResources(this.btnExportTypesSearch, "btnExportTypesSearch");
+		((AppearanceBase)val10).Image = ERP.Properties.Resources.search;
+		((ControlBase)this.btnExportTypesSearch).Appearance = (AppearanceBase)(object)val10;
+		((System.Windows.Forms.Control)(object)this.btnExportTypesSearch).Name = "btnExportTypesSearch";
+		resources.ApplyResources(this.txtExportTypes, "txtExportTypes");
+		((System.Windows.Forms.Control)(object)this.txtExportTypes).Name = "txtExportTypes";
+		resources.ApplyResources(this.TreeExportTypes, "TreeExportTypes");
+		((AppearanceBase)val11).ForeColor = System.Drawing.Color.Navy;
+		this.TreeExportTypes.Appearance = (AppearanceBase)(object)val11;
+		((System.Windows.Forms.Control)(object)this.TreeExportTypes).Name = "TreeExportTypes";
+		val12.NodeStyle = (NodeStyle)1;
+		this.TreeExportTypes.Override = val12;
+		((UltraControlBase)this.TreeExportTypes).UseAppStyling = false;
+		resources.ApplyResources(this.chkAllExportTypes, "chkAllExportTypes");
+		((AppearanceBase)val13).BackColor = System.Drawing.Color.Transparent;
+		((AppearanceBase)val13).ForeColor = System.Drawing.Color.Navy;
+		((UltraToggleEditorBase)this.chkAllExportTypes).Appearance = (AppearanceBase)(object)val13;
+		((System.Windows.Forms.Control)(object)this.chkAllExportTypes).BackColor = System.Drawing.Color.Transparent;
+		((UltraToggleEditorBase)this.chkAllExportTypes).BackColorInternal = System.Drawing.Color.Transparent;
+		((System.Windows.Forms.Control)(object)this.chkAllExportTypes).Name = "chkAllExportTypes";
+		((UltraControlBase)this.chkAllExportTypes).UseAppStyling = false;
+		resources.ApplyResources(this, "$this");
+		base.Controls.Add((System.Windows.Forms.Control)(object)this.btnExportTypesSearch);
+		base.Controls.Add((System.Windows.Forms.Control)(object)this.txtExportTypes);
+		base.Controls.Add((System.Windows.Forms.Control)(object)this.TreeExportTypes);
+		base.Controls.Add((System.Windows.Forms.Control)(object)this.chkAllExportTypes);
+		base.Controls.Add((System.Windows.Forms.Control)(object)this.btnPortsSearch);
+		base.Controls.Add((System.Windows.Forms.Control)(object)this.txtPorts);
+		base.Controls.Add((System.Windows.Forms.Control)(object)this.TreePorts);
+		base.Controls.Add((System.Windows.Forms.Control)(object)this.chkAllPorts);
+		base.Name = "frmOperationsDocuments";
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)this.chkAllPorts, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)this.TreePorts, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)this.txtPorts, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)this.btnPortsSearch, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)this.chkAllExportTypes, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)this.TreeExportTypes, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)this.txtExportTypes, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)this.btnExportTypesSearch, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.lblTitle2, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.ultraLabel1, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.ultraLabel2, 0);
+		base.Controls.SetChildIndex(base.clbBranches, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.dtpFromDate, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.dtpToDate, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.chkAllBranches, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.chkWithLogo, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnPreview, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnSaveSetting, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnClose, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.lblReportType, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.cboReportType, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.chkAll, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.chkAll2, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.TreeItems, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.TreeItems2, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.txtItems, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.txtItems2, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnItemsSearch, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnItems2Search, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.chkIsArabic, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnKeyboard, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.lblTop, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.lblLeft, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.lblBottom, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.lblRight, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnNew, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnDelete, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnUpdate, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.lblSettingName, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.cboSetting, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.btnOpenTicket, 0);
+		base.Controls.SetChildIndex((System.Windows.Forms.Control)(object)base.lblTitle, 0);
+		((System.ComponentModel.ISupportInitialize)base.dtReports).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.dtFormSetting).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.dtpFromDate).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.dtpToDate).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.chkAllBranches).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.chkWithLogo).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.cboReportType).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.chkAll).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.chkAll2).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.TreeItems).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.TreeItems2).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.chkIsArabic).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.txtItems).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.txtItems2).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.cboSetting).EndInit();
+		((System.ComponentModel.ISupportInitialize)base.dtUsersTransactions).EndInit();
+		((System.ComponentModel.ISupportInitialize)this.txtPorts).EndInit();
+		((System.ComponentModel.ISupportInitialize)this.TreePorts).EndInit();
+		((System.ComponentModel.ISupportInitialize)this.chkAllPorts).EndInit();
+		((System.ComponentModel.ISupportInitialize)this.txtExportTypes).EndInit();
+		((System.ComponentModel.ISupportInitialize)this.TreeExportTypes).EndInit();
+		((System.ComponentModel.ISupportInitialize)this.chkAllExportTypes).EndInit();
+		base.ResumeLayout(false);
+		base.PerformLayout();
+	}
+}
